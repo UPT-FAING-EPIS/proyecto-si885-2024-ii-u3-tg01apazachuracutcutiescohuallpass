@@ -194,6 +194,15 @@ El análisis muestra que los recursos actuales de la universidad son suficientes
 ## **3.4. Evaluación Financiera**
 Se espera recuperar la inversión mediante la mejora en la eficiencia operativa, reduciendo costos asociados a la resolución reactiva de problemas de red y optimizando el uso del ancho de banda.
 
+# **4. Anexos**
 
-## ANEXO 01  
-### Requerimientos del Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)
+## **4.1. Requerimientos del Sistema**
+- **Hardware**:
+  - Procesadores Intel Core i5 o superiores con al menos 8 GB de RAM.
+  - Almacenamiento SSD con capacidad mínima de 256 GB.
+- **Software**:
+  - Python 3.12 para desarrollo de scripts.
+  - AWS Lambda para ejecución de procesos sin servidor.
+  - S3 para almacenamiento de datos y Glue para organización y análisis de datos.
+  - Power BI para la generación de reportes visuales interactivos.
+

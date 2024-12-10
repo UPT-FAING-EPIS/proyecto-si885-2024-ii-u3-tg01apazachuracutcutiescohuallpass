@@ -182,3 +182,22 @@ El propósito del estudio de viabilidad económica es determinar los beneficios 
 | Costos del Ambiente | 450.00 |  
 | Costos del Personal | 6,000.00 |  
 | **Total** | **10,172.00** |
+
+#### 5.1.3. Factibilidad Operativa  
+- **Optimización de Recursos:** La herramienta ayudará a optimizar la utilización de los recursos tecnológicos al proporcionar datos detallados sobre el uso de la red.  
+- **Mejora en la Toma de Decisiones:** Al disponer de información precisa y actualizada sobre el desempeño de la infraestructura tecnológica, los administradores podrán tomar decisiones basadas en datos.  
+- **Facilidad de Uso e Integración:** La herramienta está diseñada para ser fácil de usar e integrarse con los sistemas existentes.  
+
+#### 5.1.4. Factibilidad Social  
+- **Aceptación del Proyecto:** La herramienta de monitoreo proporcionará beneficios claros para la comunidad universitaria al mejorar el rendimiento de las computadoras en los laboratorios.  
+- **Impacto en los Usuarios:** Los estudiantes y docentes se beneficiarán de un entorno de aprendizaje más eficiente.  
+- **Capacitación y Adaptación:** Se deben realizar capacitaciones para el personal de TI y otros usuarios relevantes sobre el uso de la herramienta.  
+
+#### 5.1.5. Factibilidad Legal  
+- **Protección de Datos Personales:** La recopilación y análisis de datos debe cumplir con las leyes de protección de datos personales en Perú.  
+- **Licenciamiento de Software:** El uso de bibliotecas y herramientas debe estar conforme a sus respectivas licencias de uso.  
+
+#### 5.1.6. Factibilidad Ambiental  
+- **Uso de Recursos:** La herramienta hace uso de software basado en Python, lo que no requiere recursos físicos adicionales significativos.  
+- **Eficiencia Energética:** La herramienta está diseñada para identificar patrones de uso y consumo de recursos como energía y datos.  
+

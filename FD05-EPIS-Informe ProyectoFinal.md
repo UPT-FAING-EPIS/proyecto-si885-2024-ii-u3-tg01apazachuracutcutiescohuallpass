@@ -251,3 +251,30 @@ Esta metodología garantiza que el sistema será entregado de manera eficiente, 
 
 ## 8. Conclusiones  
 El proyecto es completamente viable, dado que la infraestructura de la UPT permite su implementación sin requerir grandes inversiones adicionales, y los costos previstos son justificados por los beneficios que ofrecerá. Entre estos beneficios destacan una gestión más eficiente de los recursos tecnológicos, optimización del rendimiento de los equipos, reducción de costos operativos a largo plazo y un mantenimiento preventivo más eficaz. Además, el sistema cumple con las normativas legales, asegurando un impacto positivo en la comunidad universitaria, mejorando la calidad del servicio tecnológico, y manteniendo un impacto ambiental mínimo.  
+
+
+## 9. Recomendaciones
+
+- **Monitoreo Continuo**: Se recomienda realizar un seguimiento constante del rendimiento del sistema y de la red, aprovechando las herramientas de visualización como Power BI para asegurar que los administradores puedan identificar problemas de manera proactiva.
+  
+- **Entrenamiento y Capacitación**: Para maximizar los beneficios del sistema, se sugiere capacitar al personal de TI y a los administradores de la red en el uso del sistema, asegurando que puedan interpretar correctamente los datos y tomar decisiones informadas.
+
+- **Optimización Regular**: A medida que el sistema y la infraestructura de red evolucionen, se recomienda realizar ajustes regulares en los scripts y en la configuración de AWS para manejar de manera eficiente los crecientes volúmenes de datos.
+
+- **Mejora en la Integración**: Se sugiere considerar futuras integraciones con otras herramientas tecnológicas o sistemas internos de la universidad, como los sistemas de gestión de usuarios o plataformas académicas, para ampliar el alcance del monitoreo y mejorar la toma de decisiones.
+
+- **Evaluación de Resultados**: Se recomienda realizar evaluaciones periódicas del desempeño del sistema, con el fin de verificar si las metas iniciales del proyecto se están cumpliendo, y ajustar el sistema en función de nuevos requerimientos o problemas detectados.
+
+- **Escalabilidad y Mantenimiento**: A medida que la universidad crece y aumenta el número de dispositivos y usuarios en la red, es importante garantizar que el sistema sea escalable y que se le dé mantenimiento continuo para asegurar su fiabilidad a largo plazo.
+
+## 10. Bibliografía
+
+ISO/IEC 27001:2013. Information technology — Security techniques — Information security management systems — Requirements. International Organization for Standardization.
+
+
+## 11. Anexos  
+### Anexo 01: Informe de Factibilidad  
+### Anexo 02: Documento de Visión  
+### Anexo 03: Documento SRS  
+### Anexo 04: Documento SAD  
+### Anexo 05: Manuales y otros documentos

@@ -162,31 +162,65 @@ Al finalizar el proyecto, se espera:
 4. **Satisfacción de usuarios**: Mayor confianza y comodidad por parte de estudiantes, docentes y personal administrativo al utilizar la red.
 
 ## **2.8. Metodología de Implementación**
-La implementación del SIMGR-UPT se desarrollará utilizando un enfoque incremental y ágil, siguiendo las etapas descritas a continuación:
 
-1. **Levantamiento de requisitos**:
-   - Reuniones con los stakeholders (docentes, estudiantes y personal técnico) para identificar necesidades y prioridades.
-   - Documentación de especificaciones técnicas y funcionales.
+La implementación del SIMGR-UPT (Sistema de Monitoreo de Gestión de Redes) se llevará a cabo utilizando un enfoque ágil, basado en SCRUM para la gestión de proyectos y en un proceso incremental. A continuación, se describen las etapas relevantes para el desarrollo y la implementación del sistema:
 
-2. **Diseño del sistema**:
-   - Creación de diagramas UML, como casos de uso y diagramas de actividades, para modelar la solución.
-   - Diseño de la arquitectura técnica, incluyendo hardware, software y servicios en la nube.
+---
 
-3. **Desarrollo**:
-   - Implementación de scripts en Python para el monitoreo de la red y la generación de alertas automáticas.
-   - Configuración de servicios en AWS para el almacenamiento y análisis de datos.
+### **Gestión de Proyectos**
+Esta etapa se centra en la planificación y gestión integral del proyecto para asegurar que todas las fases se lleven a cabo de forma eficiente y dentro del presupuesto.
 
-4. **Pruebas**:
-   - Validación funcional del sistema para garantizar que cumple con los requerimientos.
-   - Pruebas de carga y estrés para verificar su desempeño bajo diferentes condiciones.
+- **Project Charter**: Definir el acta de constitución del proyecto, que incluye la misión, visión y objetivos del SIMGR-UPT.
+- **Declaración de Alcance**: Especificar los límites del proyecto, incluyendo los módulos de monitoreo y alertas.
+- **Plan del Proyecto**: Elaborar el cronograma de actividades, recursos necesarios y las asignaciones de responsabilidad.
+- **Informe de Estado del Proyecto**: Generar informes periódicos sobre el avance del proyecto para los stakeholders.
+- **Reunión de Coordinación Semanal**: Realizar reuniones semanales con el equipo de trabajo para revisar el progreso y ajustar las acciones.
+- **Cierre del Proyecto**: Formalizar el cierre del proyecto una vez que el sistema esté desplegado y funcionando correctamente.
 
-5. **Implementación piloto**:
-   - Despliegue inicial en un laboratorio seleccionado, con monitoreo constante del desempeño.
-   - Capacitación al personal técnico y recopilación de feedback de los usuarios.
+---
 
-6. **Despliegue final**:
-   - Expansión del sistema al resto de los laboratorios.
-   - Ajustes finales basados en los comentarios recopilados durante la fase piloto.
+### **Fase de Concepción**
+En esta fase se definen los requisitos y objetivos del sistema, identificando los riesgos y creando una planificación detallada.
+
+#### **Especificación de Requerimientos del Software**
+- **Módulo de Monitoreo de Red**: Definir los requisitos para la recopilación de datos y monitoreo en tiempo real de la infraestructura de red.
+- **Módulo de Alertas Automáticas**: Establecer los criterios para la generación y notificación de alertas cuando se detecten problemas en la red.
+- **Módulo de Gestión de Datos**: Especificar cómo se almacenarán y analizarán los datos recolectados.
+- **Documento de Visión**: Desarrollar un documento que describa el propósito del proyecto y cómo se alinean los objetivos con la misión de la universidad.
+
+---
+
+### **Fase de Elaboración**
+Esta fase implica el diseño detallado del sistema y su implementación, basada en los requisitos previamente establecidos.
+
+#### **Modelo de Casos de Uso**
+- **Monitoreo de Red**: Crear diagramas de casos de uso para el monitoreo de los dispositivos y la red de la universidad.
+- **Generación de Alertas**: Modelar los casos de uso para la configuración y gestión de alertas automáticas.
+- **Gestión de Datos**: Establecer casos de uso para la administración y análisis de los datos recolectados.
+
+#### **Diseño Técnico**
+- **Diagrama ER**: Desarrollar el diagrama entidad-relación para la base de datos del sistema de monitoreo.
+- **Documento de Arquitectura de Software**: Definir la arquitectura del sistema, incluyendo los módulos, la infraestructura de red y los servicios en la nube.
+- **Plan de Iteraciones**: Establecer un plan de trabajo iterativo para la construcción del sistema, priorizando las funcionalidades críticas.
+
+---
+
+### **Fase de Construcción y Pruebas**
+Esta fase incluye el desarrollo del sistema y las pruebas para asegurar su rendimiento y confiabilidad.
+
+- **Prototipo del Sistema**: Desarrollar un prototipo funcional del sistema para evaluar su viabilidad y funcionamiento.
+- **Pruebas de Validación**: Realizar pruebas unitarias, de integración y de carga para asegurar que el sistema cumpla con los requisitos.
+- **Documento de Especificaciones Técnicas**: Mantener y actualizar la documentación técnica detallada durante todo el proceso de desarrollo.
+
+---
+
+### **Adquisición de Tecnología**
+En esta fase se adquieren y configuran los recursos tecnológicos necesarios para la implementación del sistema.
+
+- **Cotización y Selección de Proveedores**: Evaluar y seleccionar los proveedores adecuados para los componentes de hardware y servicios en la nube (como AWS).
+- **Adquisición e Instalación**: Adquirir los equipos y servicios necesarios (por ejemplo, servidores VPS para almacenamiento) y realizar las instalaciones pertinentes.
+
+---
 
 
 ## **2.9. Actores Claves**

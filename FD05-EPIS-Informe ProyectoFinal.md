@@ -215,3 +215,23 @@ Para el desarrollo del sistema SIMGR-UPT, se emplearán tecnologías modernas y 
 
 Estas tecnologías se eligieron por su capacidad para manejar grandes volúmenes de datos, su integración sencilla y su escalabilidad, asegurando que el sistema sea robusto y eficiente en su ejecución.
 
+## 5.3. Metodología de Implementación  
+
+La implementación del SIMGR-UPT se llevará a cabo utilizando un enfoque ágil, que permitirá al equipo adaptarse rápidamente a los cambios y asegurar la entrega continua de valor a las partes interesadas.
+El proceso de implementación se dividirá en las siguientes fases:
+
+- **Fase 1: Análisis y Planificación**
+  - **Documento de Visión**: En esta fase, se definieron claramente los objetivos y funcionalidades del sistema, asegurando que el proyecto tenga un enfoque claro desde el inicio. Este documento está completo y aprobado por todas las partes interesadas.
+  - **Especificación de Requisitos de Software (SRS)**: En este documento, se detallaron los requisitos funcionales y no funcionales, identificando las necesidades específicas de la UPT en términos de monitoreo de red y rendimiento de los equipos. Todos los requisitos fueron validados y están listos para su implementación.
+  
+- **Fase 2: Diseño y Desarrollo**
+  - **Análisis y Diseño de Sistemas (SAD)**: En esta fase, se elaboraron los diagramas de arquitectura y diseño del sistema, detallando cómo se integrarán los componentes y cómo se gestionarán los flujos de datos. Estos diagramas y la estructura del sistema están completamente definidos y se encuentran listos para la implementación.
+  - **Desarrollo**: Se comenzará el desarrollo iterativo, implementando las funcionalidades básicas primero, seguidas de las más avanzadas.
+
+- **Fase 3: Implementación y Pruebas**
+  - Durante esta fase, el sistema será probado en un entorno controlado para validar su correcto funcionamiento y asegurar que cumpla con los requisitos especificados. Las pruebas se realizarán de manera continua a medida que se agregan nuevas funcionalidades.
+
+- **Fase 4: Implementación en Producción y Monitoreo**
+  - El sistema será desplegado en los laboratorios de la UPT, donde se monitoreará su rendimiento y se recopilarán datos de uso. Durante esta fase, se realizarán ajustes finos y mejoras basadas en el feedback de los usuarios.
+
+Esta metodología garantiza que el sistema será entregado de manera eficiente, con un enfoque claro en la calidad y la mejora continua.

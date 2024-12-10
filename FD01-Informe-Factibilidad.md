@@ -1,8 +1,8 @@
+
 <center>
 
-[comment]: <img src="./media/media/image1.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
 
-![./media/media/image1.png](./media/logo-upt.png)
+![./media/logo-upt.png](./media/logo-upt.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
@@ -10,26 +10,31 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
+**Sistema *"Herramienta de Seguimiento y Evaluación del Desempeño de Red en Computadoras UPT"**
 
-Curso: *{Nombre de Asignatura}*
+Curso: Inteligencia de Negocios
 
-Docente: *{Nombre de Docente}*
+Docente: Mag. Patrick Cuadros Quiroga
 
 Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+Escobar Rejas, Carlos Andrés (2021070016)  
+Apaza Ccalle, Albert Kenyi   (2021071075)  
+Cutipa Gutierrez, Ricardo    (2021069827)  
+Churacutipa Blass, Erick     (2020067578)  
+Huallpa Maron, Jesus Antonio (2021071085) 
 
 **Tacna – Perú**
 
-***{Año}***
+2024
+
 
 **  
 **
 </center>
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-Sistema *{Nombre del Sistema}*
+**Sistema *"Herramienta de Seguimiento y Evaluación del Desempeño de Red en Computadoras UPT"***
 
 Informe de Factibilidad
 
@@ -38,7 +43,7 @@ Versión *{1.0}*
 |CONTROL DE VERSIONES||||||
 | :-: | :- | :- | :- | :- | :- |
 |Versión|Hecha por|Revisada por|Aprobada por|Fecha|Motivo|
-|1\.0|MPV|ELV|ARV|10/10/2020|Versión Original|
+|1\.0|MPV|ELV|ARV|24/08/2024|Versión Original|
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -75,25 +80,44 @@ Versión *{1.0}*
 
 1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
 
-    1.1. Nombre del proyecto
+1.1. Nombre del proyecto
 
-    1.2. Duración del proyecto
+"Herramienta de Seguimiento y Evaluación del Desempeño en Redes de Computadoras UPT"
 
-    1.3. Descripción
+1.2. Duración del proyecto
 
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
+Empieza el 13 de agosto y termina el 13 diciembre
 
-    1.4. Objetivos
+1.3. Descripción
 
-        1.4.1 Objetivo general
-        1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
+El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en Computadoras UPT" consiste en el desarrollo de una solución integral para monitorear y evaluar el rendimiento de la red de computadoras dentro de la Universidad Privada de Tacna (UPT). Esta herramienta está diseñada para proporcionar un análisis detallado del estado y desempeño de los recursos tecnológicos, permitiendo a los administradores de TI identificar y solucionar problemas de manera proactiva. A través de la recopilación de datos, la herramienta facilita la gestión eficiente del rendimiento, asegurando que la red funcione sin interrupciones. Además, incluye funciones de evaluación continua, que ayudan a realizar un seguimiento del rendimiento a lo largo del tiempo, identificar patrones de uso, y proponer mejoras basadas en datos concretos.
+
+1.4. Objetivos
+
+1.4.1 Objetivo general
+
+- Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT.
+
+1.4.2 Objetivos Específicos
+
+   - Diseñar un script para la recolección de datos que monitorice el rendimiento de la red de cada computadora en los laboratorios.
+- Establecer un mecanismo eficiente para enviar los datos recopilados a una base de datos centralizada, asegurando un almacenamiento adecuado para su análisis posterior. 
+- Facilitar la comprensión de la información recopilada mediante la organización de datos que permitan su visualización clara y efectiva.
+- Analizar el tráfico de red en el laboratorio A para identificar las horas de mayor actividad, facilitando la optimización del uso de recursos en los laboratorios.
+- Evaluar el consumo de internet diario para establecer patrones de uso y detectar posibles congestiones en la red.
+- Identificar las direcciones IP con mayor tráfico de red, permitiendo a los administradores detectar equipos o usuarios que puedan estar consumiendo excesivos recursos.
+- Determinar los docentes que generan mayor tráfico de red, lo cual puede ayudar en la planificación de recursos y en la mejora del servicio durante las clases.
+- Establecer qué clases presentan mayor tráfico de red, proporcionando información valiosa para la gestión de recursos durante los períodos de mayor demanda.
+- Apoyar al área de soporte proporcionando información detallada a través de reportes o un dashboard interactivo, lo que permitirá una gestión más proactiva y eficiente de los recursos tecnológicos, facilitando la identificación y resolución de problemas de la red.
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
 2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
-    Señale los riesgos que pudieran afectar el éxito del proyecto.}*
+    -Retrasos en el Cronograma: Los retrasos en el desarrollo, pruebas o implementación podrían afectar la fecha de finalización del proyecto, especialmente si dependen de factores externos como la disponibilidad de recursos o la integración con sistemas existentes.
+
+    -Definición Inadecuada de Requisitos: Cambios en los requisitos durante el desarrollo podrían llevar a la necesidad de rediseñar partes del sistema, afectando el alcance y el tiempo del proyecto.  
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -101,11 +125,16 @@ Versión *{1.0}*
 
     3.1. Planteamiento del problema
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+      La Universidad Privada de Tacna (UPT) enfrenta desafíos significativos en la gestión del rendimiento de su red. En el entorno actual, los administradores de TI lidian con la falta de herramientas adecuadas para monitorear y evaluar el estado y desempeño de los recursos tecnológicos. La ausencia de una solución integral limita la capacidad para identificar y solucionar problemas de manera proactiva, afectando la operación eficiente de la red.
 
-    3.2. Consideraciones de hardware y software
+   Actualmente, la supervisión del rendimiento se realiza de manera fragmentada y manual, lo que resulta en un seguimiento inadecuado de los recursos tecnológicos. Esto genera dificultades para mantener las computadoras en un nivel óptimo de operación y para asegurar un funcionamiento continuo de la red. Además, la falta de análisis detallado impide una gestión efectiva e identificación de patrones de uso, lo que podría llevar a problemas recurrentes no detectados a tiempo.
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
+   Para abordar estas deficiencias, es esencial desarrollar una herramienta de seguimiento y evaluación que permita un análisis detallado del desempeño de la red. Esta solución permitirá a los administradores de TI tomar decisiones informadas, identificar problemas potenciales antes de que se conviertan en fallos graves, y proponer mejoras basadas en datos concretos, optimizando así el rendimiento general de la infraestructura tecnológica de la UPT.
+
+
+    3.2. Consideraciones de software
+
+   Para el proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en Computadoras UPT", se utilizará Python 3.12.5 por su estabilidad y compatibilidad, y Tableau 2021.4 para visualizaciones avanzadas. Estas tecnologías, ampliamente reconocidas y estandarizadas en la industria, ofrecerán un entorno de desarrollo robusto y confiable.
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
@@ -116,115 +145,181 @@ Versión *{1.0}*
 
     4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
 
-        El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática esto implica una evaluación del hardware y software y como este puede cubrir las necesidades del sistema propuesto.
 
-        Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.*
+      Infraestructura de Red:
+         • Conectividad a Internet: La UPT cuenta con conectividad a internet mediante fibra óptica, ofreciendo alta velocidad y estabilidad para la transferencia de datos.
+         • Red Física: La infraestructura de red incluye routers, switches y puntos de acceso inalámbricos distribuidos por el campus. Esta red está diseñada para soportar múltiples dispositivos conectados simultáneamente, facilitando la recolección de datos de diferentes puntos sin sobrecargar los recursos.
 
-        Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
+      Dominio y Gestión de Red:
+         • Dominio Institucional: La UPT dispone de un dominio institucional que permite la administración centralizada de las aplicaciones y herramientas de monitoreo. Esto facilita la integración del sistema y su gestión a nivel de toda la red universitaria.
+
 
     4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
 
-        El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
+   El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
         Como se mencionó anteriormente en el estudio de factibilidad técnica wvaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática.
         Se plantearán los costos del proyecto.
         Costeo del Proyecto: Consiste en estimar los costos de los recursos Humanos, materiales o consumibles y/o máquinas) directos para completar las actividades del proyecto}.*
 
-        Definir los siguientes costos:
+   Definir los siguientes costos:
 
-        4.2.1. Costos Generales
+      4.2.1. Costos Generales
 
-                Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
+      Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
 
-        4.2.2. Costos operativos durante el desarrollo 
-        
-                Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizara el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
+   |Material|Cantidad|Costo Unitario (S/)|
+   | :-: | :- | :- |
+   |LAPTOP INTEL CORE I7 3.4 GHZ MONITOR 27'' RAM 16GB DISCO DURO 1TB + SSD 480GB|1|2900.00||
+   |Disco de almacenamiento de seguridad (2 TB), color negro|1|262.00||
+   |Cooler Laptop|1|60||
+   |Total||3,222.00|
 
-        4.2.3. Costos del ambiente
 
-                Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+      4.2.2. Costos operativos durante el desarrollo 
 
-        4.2.4. Costos de personal
+      Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizara el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
 
-                Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
+   |Concepto|Costo|
+   | :-: | :- |
+   |Viáticos|300.00||
+   |Movilidad del equipo de trabajo|200.00||
+   |Total|500.00|
 
-                No se considerará personal para la operación y funcionamiento del sistema.
+      4.2.3. Costos del ambiente
 
-                Incluir tabla que muestra los gastos correspondientes al personal.
+      Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
 
-                Indicar organización y roles. Indicar horario de trabajo del personal.
+   |Concepto|Costo|
+   | :-: | :- |
+   |Servicio VPS (Nube)|350.00||
+   |Software de Diagramas y Arquitectura del Proyecto|100.00|
+   |Total|450.00|
 
-        4.2.5.  Costos totales del desarrollo del sistema
+      4.2.4. Costos de personal
 
-                {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+      Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
 
-    4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+      No se considerará personal para la operación y funcionamiento del sistema.
 
-        Describir los beneficios del producto y si se tiene la capacidad por parte del cliente para mantener el sistema funcionando y garantizar el buen funcionamiento y su impacto en los usuarios. Lista de interesados.
+      Incluir tabla que muestra los gastos correspondientes al personal.
+
+      Indicar organización y roles. Indicar horario de trabajo del personal.
+
+   |Rol|Personas|Salario Mensual|Horas Mensuales|
+   | :-: | :- | :- | :- |
+   |Desarrollador|4|1000|60|
+   |Gerente de Proyecto|1|1200|60|
+
+      4.2.5.  Costos totales del desarrollo del sistema
+
+      {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+
+   |Concepto|Costo Total (S/)|
+   | :-: | :- |
+   |Costos Generales|3,222.00|
+   |Costos Operativos durante el Desarrollo|500.00|
+   |Costos del Ambiente|450.00|
+   |Costos del Personal|6,000.00|
+   |Total|10,172.00|
+
+      4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+
+      - Optimización de Recursos: La herramienta ayudará a optimizar la utilización de los recursos tecnológicos al proporcionar datos detallados sobre el uso de la red. Esta información permitirá a la universidad tomar decisiones informadas sobre el mantenimiento, la actualización o la redistribución de recursos.
+     - Mejora en la Toma de Decisiones: Al disponer de información precisa y actualizada sobre el desempeño de la infraestructura tecnológica, los administradores podrán tomar decisiones basadas en datos para mejorar la eficiencia operativa y la calidad del servicio ofrecido a los estudiantes y personal académico.
+     - Facilidad de Uso e Integración: La herramienta está diseñada para ser fácil de usar e integrarse con los sistemas existentes, lo que reduce la curva de aprendizaje para el personal y minimiza el impacto en las operaciones diarias.
 
     4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
 
-        Determinar si existe conflicto del proyecto con restricciones legales como leyes y regulaciones del país o locales relacionadas con seguridad, protección de datos, conducta de negocio, empleo y adquisiciones.
+     - Protección de Datos Personales: La recopilación y análisis de datos debe cumplir con las leyes de protección de datos personales en Perú, como la Ley de Protección de Datos Personales (Ley N° 29733). La herramienta debe garantizar que cualquier dato personal recogido sea anonimizado y utilizado exclusivamente con fines académicos y de mejora del desempeño de los equipos.
+     - Licenciamiento de Software: El uso de la biblioteca Python psutil y cualquier otro software o herramienta debe estar conforme a sus respectivas licencias de uso. Se debe asegurar que no haya violación de derechos de propiedad intelectual en el desarrollo y aplicación de la herramienta.
 
     4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
 
-        Evaluar influencias y asuntos de índole social y cultural como el clima político, códigos de conducta y ética*
+	- Aceptación del Proyecto: La herramienta de monitoreo proporcionará beneficios claros para la comunidad universitaria al mejorar el rendimiento de las computadoras en los laboratorios, optimizando los recursos y asegurando que los equipos estén disponibles y operativos para los estudiantes y profesores. La aceptación del proyecto entre los usuarios será positiva si se comunica adecuadamente el propósito y los beneficios del proyecto.
+	- Impacto en los Usuarios: Los estudiantes y docentes se beneficiarán de un entorno de aprendizaje más eficiente, con equipos que funcionan de manera óptima. Además, el personal de TI podrá responder proactivamente a problemas antes de que se conviertan en fallas significativas, lo que reducirá los tiempos de inactividad y mejorará la satisfacción del usuario.
+	- Capacitación y Adaptación: Para asegurar la adopción efectiva del proyecto, se deben realizar capacitaciones para el personal de TI y otros usuarios relevantes sobre el uso de la herramienta y la interpretación de los datos generados. Esto ayudará a minimizar cualquier resistencia al cambio y facilitará una transición fluida.
+
 
     4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
 
-        Evaluar influencias y asuntos de índole ambiental como el impacto y repercusión en el medio ambiente.
+     - Uso de Recursos: La herramienta hace uso de software basado en Python y otras herramientas digitales, lo que no requiere recursos físicos adicionales significativos que impacten negativamente en el medio ambiente. Además, la implementación se realiza en la infraestructura existente de la universidad, minimizando la necesidad de recursos adicionales.
+     - Eficiencia Energética: La herramienta está diseñada para identificar patrones de uso y consumo de recursos como energía y datos, permitiendo así una optimización del consumo de energía de las computadoras. Al monitorizar el rendimiento y la eficiencia de los equipos, se pueden identificar oportunidades para reducir el consumo energético, lo que contribuye a los objetivos de sostenibilidad de la universidad.   
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-5. <span id="_Toc52661356" class="anchor"></span>**Análisis Financiero**
+# 5. Análisis Financiero
 
-    El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas.
-    Se tiene que estimar financieramente el resultado del proyecto.
+El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas. Se tiene que estimar financieramente el resultado del proyecto.
 
-    5.1. Justificación de la Inversión
+## 5.1. Justificación de la Inversión
+La inversión en este proyecto se justifica con base en los siguientes beneficios
 
-        5.1.1. Beneficios del Proyecto
+**Beneficios tangibles**:
+- Reducción de costos operativos
+- Mejora en la eficiencia del área bajo estudio
+- Optimización del uso de recursos
 
-            El beneficio se calcula como el margen económico menos los costes de oportunidad, que son los márgenes que hubieran podido obtenerse de haber dedicado el capital y el esfuerzo a otras actividades.
-            El beneficio, obtenido lícitamente, no es sólo una recompensa a la inversión, al esfuerzo y al riesgo asumidos por el empresario, sino que también es un factor esencial para que las empresas sigan en el  mercado e incorporen nuevas inversiones al tejido industrial y social de las naciones.
-            Describir beneficios tangibles e intangibles*
-            Beneficios tangibles: son de fácil cuantificación, generalmente están relacionados con la reducción de recursos o talento humano.
-            Beneficios intangibles: no son fácilmente cuantificables y están relacionados con elementos o mejora en otros procesos de la organización.
->
-            Ejemplo de beneficios:
+**Beneficios intangibles**:
 
-            - Mejoras en la eficiencia del área bajo estudio.
-            - Reducción de personal.
-            - Reducción de futuras inversiones y costos.
-            - Disponibilidad del recurso humano.
-            - Mejoras en planeación, control y uso de recursos.
-            - Suministro oportuno de insumos para las operaciones.
-            - Cumplimiento de requerimientos gubernamentales.
-            - Toma acertada de decisiones.
-            - Disponibilidad de información apropiada.
-            - Aumento en la confiabilidad de la información.
-            - Mejor servicio al cliente externo e interno
-            - Logro de ventajas competitivas.
-            - Valor agregado a un producto de la compañía.
-        
-        5.1.2. Criterios de Inversión
+-Toma de decisiones más informada
 
-            5.1.2.1. Relación Beneficio/Costo (B/C)
+## 5.1.2. Criterios de Inversión
+Costo de inversión del proyecto: 10,172.00
+Tasa de descuento : 9%
 
-                En base a los costos y beneficios identificados se evalúa si es factible el desarrollo del proyecto. 
-                Si se presentan varias alternativas de solución se evaluará cada una de ellas para determinar la mejor solución desde el punto de vista del > retorno de la inversión
-                El B/C si es mayor a uno, se acepta el proyecto; si el B/C es igual a uno es indiferente aceptar o rechazar el proyecto y si el B/C es menor a uno se rechaza el proyecto
+**Egresos** (gastos operacionales como parte del funcionamiento del software en la puesta en produccion)
 
-            5.1.2.2. Valor Actual Neto (VAN)
-            
-                Valor actual de los beneficios netos que genera el proyecto. Si el VAN es mayor que cero, se acepta el proyecto; si el VAN es igual a cero es indiferente aceptar o rechazar el proyecto y si el VAN es menor que cero se rechaza el proyecto
+|Gasto|Cantidad|Costo Unitario (S/)|
+   | - | :- | :- |
+   |Viáticos|1|300||
+   |Movilidad del equipo de trabajo|1|200||
+   |Total||3,222.00|
 
-            5.1.2.3 Tasa Interna de Retorno (TIR)*
-                Es la tasa porcentual que indica la rentabilidad promedio anual que genera el capital invertido en el proyecto. Si la TIR es mayor que el costo de oportunidad se acepta el proyecto, si la TIR es igual al costo de oportunidad es indiferente aceptar o rechazar el proyecto, si la TIR es menor que el costo de oportunidad se rechaza el proyecto
+**Ingreso anual y beneficios del sistema**
 
-                Costo de oportunidad de capital (COK) es la tasa de interés que podría haber obtenido con el dinero invertido en el proyecto
+|Gasto|Cantidad|Costo Unitario (S/)|
+   | - | :- | :- |
+   |Reducción en pérdidas|50%|2000||
+   |Mejora del sistema|50%|2000||
+   |Total||4000|
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+  **Flujo de caja**
 
-6. <span id="_Toc52661357" class="anchor"></span>**Conclusiones**
+  |Periodo|Ingreso|Egreso|Flujo efectivo
+   | -: | :-: | :-: | :-:
+   |0|||-10 172|
+   |1|4000|500|3500|
+   |3|4000|500|3500
+   |4|4000|500|3500
+   |5|4000|500|3500
 
-Explicar los resultados del análisis de factibilidad que nos indican si el proyecto es viable y factible.
+
+### 5.1.2.1. Relación Beneficio/Costo (B/C)
+
+
+B/C = 1.34
+
+**Interpretación**: Dado que el B/C es mayor a 1 (1.34), el proyecto es financieramente viable y debería aceptarse y por cada unidad monetaria invertida, se espera obtener aproximadamente 0.34 unidades monetarias de beneficio.
+
+### 5.1.2.2. Valor Actual Neto (VAN)
+
+
+- **Tasa de descuento (r)**: 9%
+- **Inversión inicial**: S/ 10,172
+- **Flujos de caja proyectados**: S/ 3500 anuales por 5 años.
+VAN = S/. 13,613.78 - S/ 10,172
+VAN = S/. 3,441.78
+
+
+**Interpretación**: El VAN es positivo (S/. 3,441.78), lo que indica que el proyecto generará un valor adicional neto sobre la inversión inicial, por lo que es viable.
+
+### 5.1.2.3. Tasa Interna de Retorno (TIR)
+
+TIR = 21%
+
+**Interpretación**: Dado que la TIR (21%) es mayor que la tasa de descuento asumida (10%), el proyecto es rentable.
+
+---
+# 6. Conclusiones
+
+El proyecto es completamente viable, dado que la infraestructura de la UPT permite su implementación sin requerir grandes inversiones adicionales, y los costos previstos son justificados por los beneficios que ofrecerá. Entre estos beneficios destacan una gestión más eficiente de los recursos tecnológicos, optimización del rendimiento de los equipos, reducción de costos operativos a largo plazo y un mantenimiento preventivo más eficaz. Además, el sistema cumple con las normativas legales, asegurando un impacto positivo en la comunidad universitaria, mejorando la calidad del servicio tecnológico, y manteniendo un impacto ambiental mínimo.

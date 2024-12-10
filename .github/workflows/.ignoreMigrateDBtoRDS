@@ -1,0 +1,73 @@
+name: Ejecutar Script Python en RDS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ejecutar-script-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Paso 1: Hacer checkout del código
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Paso 2: Configurar Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      # Paso 3: Instalar dependencias
+      - name: Instalar dependencias desde requirements.txt
+        run: |
+          cd artefactos
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Paso 4: Ejecutar el script de conexión RDS
+      - name: Ejecutar script Python de conexión RDS
+        run: |
+          cd artefactos
+          python conexionRDS.py
+        env:
+          DB_ENDPOINT: ${{ secrets.DB_ENDPOINT }}  
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+
+      # Paso 5: Ejecutar table.py (con credenciales de RDS)
+      - name: Ejecutar table.py
+        run: |
+          cd artefactos
+          python table.py
+        env:
+          DB_ENDPOINT: ${{ secrets.DB_ENDPOINT }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+
+      # Paso 6: Ejecutar extraerxlxs.py (sin credenciales)
+      - name: Ejecutar extraerxlxs.py
+        run: |
+          cd artefactos
+          python extraerxlxs.py
+        env:
+          DB_ENDPOINT: ${{ secrets.DB_ENDPOINT }}  
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+  
+
+      # Paso 7: Ejecutar extraersql.py (sin credenciales)
+      - name: Ejecutar extraersql.py
+        run: |
+          cd artefactos
+          python extraersql.py
+        env:
+          DB_ENDPOINT: ${{ secrets.DB_ENDPOINT }}  
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_PORT: ${{ secrets.DB_PORT }}

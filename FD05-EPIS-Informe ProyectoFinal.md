@@ -201,3 +201,17 @@ El propósito del estudio de viabilidad económica es determinar los beneficios 
 - **Uso de Recursos:** La herramienta hace uso de software basado en Python, lo que no requiere recursos físicos adicionales significativos.  
 - **Eficiencia Energética:** La herramienta está diseñada para identificar patrones de uso y consumo de recursos como energía y datos.  
 
+
+## 5.2. Tecnología de Desarrollo  
+Para el desarrollo del sistema SIMGR-UPT, se emplearán tecnologías modernas y escalables que garanticen un rendimiento eficiente y una integración fluida con la infraestructura existente de la UPT. Las tecnologías seleccionadas incluyen:
+
+- **Python**: Este lenguaje de programación será utilizado para desarrollar los scripts que procesarán los datos de red. Python es altamente versátil, fácil de integrar con otros sistemas y cuenta con numerosas bibliotecas que facilitan el manejo de datos y la automatización de tareas.
+- **AWS (Amazon Web Services)**: Se utilizarán varios servicios de AWS para el almacenamiento, procesamiento y análisis de los datos de red:
+  - **AWS Lambda**: Para la ejecución de scripts automatizados de Python que procesan los datos en la nube.
+  - **AWS S3**: Como almacenamiento de datos en la nube, asegurando accesibilidad y alta disponibilidad.
+  - **AWS Glue**: Para la integración y transformación de datos, permitiendo la preparación de los datos para análisis.
+  - **AWS Athena**: Para realizar consultas SQL sobre los datos almacenados en AWS S3, permitiendo la generación de métricas clave.
+- **Power BI**: Se utilizará para la visualización de los datos de forma interactiva, lo que permitirá a los administradores y personal de TI interpretar fácilmente el desempeño de la red y tomar decisiones basadas en los datos recopilados.
+
+Estas tecnologías se eligieron por su capacidad para manejar grandes volúmenes de datos, su integración sencilla y su escalabilidad, asegurando que el sistema sea robusto y eficiente en su ejecución.
+

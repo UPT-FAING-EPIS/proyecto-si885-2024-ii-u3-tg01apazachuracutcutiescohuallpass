@@ -90,3 +90,19 @@ El alcance del proyecto se centra en el análisis del desempeño de la red en lo
 
 El sistema también incorporará la automatización del flujo de datos en la nube y tendrá la capacidad de manejar volúmenes crecientes de datos. Sin embargo, no se contempla el desarrollo de integraciones directas con hardware físico ni aplicaciones móviles dentro de este alcance.
 
+## 3. Objetivos  
+
+### 3.1. Objetivo General  
+Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT.
+
+### 3.2. Objetivos Específicos  
+- Diseñar un script para la recolección de datos que monitorice el rendimiento de la red de cada computadora en los laboratorios.  
+- Establecer un mecanismo eficiente para enviar los datos recopilados a una base de datos centralizada, asegurando un almacenamiento adecuado para su análisis posterior.  
+- Facilitar la comprensión de la información recopilada mediante la organización de datos que permitan su visualización clara y efectiva.  
+- Analizar el tráfico de red en el laboratorio A para identificar las horas de mayor actividad, facilitando la optimización del uso de recursos en los laboratorios.  
+- Evaluar el consumo de internet diario para establecer patrones de uso y detectar posibles congestiones en la red.  
+- Identificar las direcciones IP con mayor tráfico de red, permitiendo a los administradores detectar equipos o usuarios que puedan estar consumiendo excesivos recursos.  
+- Determinar los docentes que generan mayor tráfico de red, lo cual puede ayudar en la planificación de recursos y en la mejora del servicio durante las clases.  
+- Establecer qué clases presentan mayor tráfico de red, proporcionando información valiosa para la gestión de recursos durante los períodos de mayor demanda.  
+- Apoyar al área de soporte proporcionando información detallada a través de reportes o un dashboard interactivo, lo que permitirá una gestión más proactiva y eficiente de los recursos tecnológicos, facilitando la identificación y resolución de problemas de la red.
+

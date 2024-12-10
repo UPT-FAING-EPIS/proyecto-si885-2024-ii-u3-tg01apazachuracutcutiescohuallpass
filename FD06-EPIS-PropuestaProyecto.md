@@ -171,5 +171,29 @@ El desempeño del sistema será evaluado trimestralmente mediante:
 - **Informes de uso**:
   - Generación de reportes automáticos para evaluar patrones de uso y efectividad del sistema.
 
+# **3. Presupuesto**
+
+## **3.1. Planteamiento del Presupuesto**
+El presupuesto estimado cubre los costos de hardware, software, personal y operaciones necesarias para desarrollar e implementar el sistema SIMGR-UPT. Este cálculo garantiza una relación costo-beneficio favorable para la Universidad Privada de Tacna.
+
+## **3.2. Presupuesto**
+- **Hardware**:
+  - Computadoras y almacenamiento: S/ 3,222.00
+- **Software y servicios en la nube**:
+  - Licencias y uso de AWS: S/ 450.00
+- **Personal**:
+  - Desarrollo e implementación: S/ 6,000.00
+- **Costos operativos**:
+  - Movilidad y viáticos: S/ 500.00
+
+**Total estimado**: S/ 10,172.00
+
+## **3.3. Análisis de Factibilidad**
+El análisis muestra que los recursos actuales de la universidad son suficientes para implementar el sistema propuesto. El costo es competitivo considerando los beneficios a largo plazo, como la reducción de tiempos de inactividad y la optimización de recursos.
+
+## **3.4. Evaluación Financiera**
+Se espera recuperar la inversión mediante la mejora en la eficiencia operativa, reduciendo costos asociados a la resolución reactiva de problemas de red y optimizando el uso del ancho de banda.
+
+
 ## ANEXO 01  
 ### Requerimientos del Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)

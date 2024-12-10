@@ -75,3 +75,7 @@ El monitoreo de redes ha evolucionado de ser una tarea manual y reactiva a un pr
 ### 2.1. Problema  
 
 La Universidad Privada de Tacna (UPT) enfrenta dificultades en la gestión eficiente de su red de computadoras debido a la falta de un sistema automatizado que permita monitorear el rendimiento de la red de manera continua. La ausencia de visibilidad sobre el uso de los recursos de red dificulta la identificación de problemas de conectividad y la optimización de la infraestructura tecnológica, lo que puede afectar el desempeño de los estudiantes y docentes en los laboratorios de computadoras.
+
+### 2.2. Justificación  
+La implementación de una herramienta de monitoreo automatizado es esencial para mejorar la eficiencia operativa de la red en los laboratorios de computadoras de la UPT. Un sistema como el SIMGR-UPT permite la recopilación y análisis de datos sobre el desempeño de la red, lo que facilita la identificación de patrones de uso y posibles problemas de conectividad. Esto permite a los administradores de TI tomar decisiones basadas en datos concretos, mejorar el soporte de red y realizar mantenimientos preventivos, asegurando un funcionamiento óptimo de los recursos tecnológicos y beneficiando tanto a estudiantes como a docentes.
+

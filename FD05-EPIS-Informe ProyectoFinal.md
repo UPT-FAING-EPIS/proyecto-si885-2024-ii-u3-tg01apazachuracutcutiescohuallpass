@@ -235,3 +235,19 @@ El proceso de implementación se dividirá en las siguientes fases:
   - El sistema será desplegado en los laboratorios de la UPT, donde se monitoreará su rendimiento y se recopilarán datos de uso. Durante esta fase, se realizarán ajustes finos y mejoras basadas en el feedback de los usuarios.
 
 Esta metodología garantiza que el sistema será entregado de manera eficiente, con un enfoque claro en la calidad y la mejora continua.
+
+## 6. Cronograma  
+.
+
+## 7. Presupuesto  
+
+| Concepto | Costo Total (S/) |  
+|----------|------------------|  
+| Costos Generales | 3,222.00 |  
+| Costos Operativos durante el Desarrollo | 500.00 |  
+| Costos del Ambiente | 450.00 |  
+| Costos del Personal | 6,000.00 |  
+| **Total** | **10,172.00** |  
+
+## 8. Conclusiones  
+El proyecto es completamente viable, dado que la infraestructura de la UPT permite su implementación sin requerir grandes inversiones adicionales, y los costos previstos son justificados por los beneficios que ofrecerá. Entre estos beneficios destacan una gestión más eficiente de los recursos tecnológicos, optimización del rendimiento de los equipos, reducción de costos operativos a largo plazo y un mantenimiento preventivo más eficaz. Además, el sistema cumple con las normativas legales, asegurando un impacto positivo en la comunidad universitaria, mejorando la calidad del servicio tecnológico, y manteniendo un impacto ambiental mínimo.  

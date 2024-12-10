@@ -65,79 +65,93 @@ Versión *{1.0}*
 
 
 
-
 # **1. Resumen Ejecutivo**
 
-El **Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)** es una propuesta innovadora para optimizar la infraestructura tecnológica de la Universidad Privada de Tacna. Este sistema tiene como objetivo principal proporcionar una solución integral para el monitoreo continuo del rendimiento de la red en los laboratorios de informática. Se busca garantizar la conectividad estable y eficiente necesaria para apoyar las actividades académicas y administrativas.
+El **Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)** es una propuesta innovadora que busca optimizar la infraestructura tecnológica de la Universidad Privada de Tacna, particularmente en los laboratorios de informática. Este sistema tiene como objetivo principal proporcionar una solución integral para el monitoreo continuo del rendimiento de la red, asegurando una conectividad estable y eficiente que respalde tanto las actividades académicas como administrativas de la institución.
+
+El proyecto aborda los principales desafíos que actualmente enfrenta la universidad en términos de gestión de red, utilizando tecnología de última generación para superar estos obstáculos. Entre las características principales del sistema se incluyen monitoreo en tiempo real, alertas automáticas, generación de reportes analíticos y optimización de recursos tecnológicos.
 
 ## **Antecedentes y Contexto**
-Actualmente, la gestión de la red en los laboratorios presenta desafíos significativos:
-- **Falta de herramientas de monitoreo proactivo**, lo que dificulta la identificación y resolución de problemas antes de que afecten a los usuarios.
-- **Uso ineficiente de los recursos de red**, debido a la falta de análisis histórico y patrones de uso.
-- **Impacto en la calidad educativa**, ya que los tiempos de inactividad afectan la experiencia de estudiantes y docentes.
+Actualmente, la red en los laboratorios de la universidad presenta los siguientes problemas significativos:
+- **Falta de monitoreo proactivo**: Esto dificulta la identificación y resolución de problemas antes de que afecten a los usuarios, lo que genera interrupciones constantes.
+- **Uso ineficiente de recursos**: La ausencia de un análisis detallado y patrones de uso históricos contribuye al desaprovechamiento del ancho de banda y otros recursos clave.
+- **Impacto negativo en la calidad educativa**: La conectividad irregular afecta directamente la experiencia de aprendizaje de los estudiantes y el trabajo de los docentes.
+
+Con el crecimiento de las tecnologías digitales, garantizar una infraestructura de red eficiente es esencial para cumplir con las expectativas modernas de enseñanza y aprendizaje. El SIMGR-UPT se presenta como una solución tecnológica que no solo responde a estas necesidades, sino que también anticipa problemas futuros mediante el uso de herramientas avanzadas de análisis y monitoreo.
 
 ## **Solución Propuesta**
-El proyecto SIMGR-UPT empleará tecnologías avanzadas como AWS (Lambda, S3, Glue) y Python para recopilar, procesar y analizar datos de red en tiempo real. Además, el sistema incluirá:
-- **Dashboard interactivo** para la visualización de métricas clave.
-- **Alertas automáticas** para identificar problemas de conectividad.
-- **Reportes analíticos** para optimizar la planificación y mantenimiento.
+El SIMGR-UPT propone la implementación de un sistema robusto basado en tecnologías avanzadas que permita:
+1. **Monitoreo continuo en tiempo real** de la red en los laboratorios.
+2. **Generación de alertas automáticas** para detectar problemas de conectividad y resolverlos de manera proactiva.
+3. **Dashboard interactivo** que ofrece una visión clara y detallada del estado de la red, accesible tanto para técnicos como para administradores.
+4. **Análisis predictivo** para identificar posibles fallos antes de que ocurran, utilizando técnicas de machine learning y big data.
+5. **Reportes analíticos personalizados** que ayuden en la planificación y el mantenimiento de los recursos tecnológicos.
+
+Además, el sistema estará diseñado para integrarse fácilmente con la infraestructura existente de la universidad, minimizando costos y tiempos de implementación.
 
 ## **Beneficios Esperados**
-1. **Optimización de la conectividad**: Mejora de la estabilidad y desempeño de la red.
-2. **Reducción de costos operativos**: A través de decisiones informadas y mantenimiento preventivo.
-3. **Mejor experiencia de usuario**: Garantizando un entorno académico eficiente y funcional.
-4. **Datos confiables para la toma de decisiones**: Basados en métricas y patrones históricos.
+El desarrollo e implementación del SIMGR-UPT traerá consigo una serie de beneficios significativos para la universidad:
+1. **Optimización de recursos tecnológicos**: Uso más eficiente del ancho de banda y los dispositivos de red.
+2. **Reducción de interrupciones**: Mejora de la estabilidad y confiabilidad de la red, reduciendo los tiempos de inactividad.
+3. **Mejor experiencia de usuario**: Tanto estudiantes como docentes podrán realizar sus actividades sin interrupciones, lo que mejorará la calidad educativa.
+4. **Soporte técnico mejorado**: El sistema permitirá a los técnicos reaccionar rápidamente ante problemas y priorizar acciones críticas.
+5. **Mayor capacidad de análisis y toma de decisiones**: Gracias a los reportes detallados y la visualización de datos históricos.
 
 ## **Impacto Estratégico**
-Este proyecto posicionará a la Universidad Privada de Tacna como líder en la gestión tecnológica, alineándose con los estándares modernos de infraestructura de red. Además, permitirá:
-- Mayor competitividad académica.
-- Aumento de la satisfacción de estudiantes y docentes.
-- Mejora en la reputación institucional.
+Implementar el SIMGR-UPT posicionará a la Universidad Privada de Tacna como líder en la gestión tecnológica educativa, marcando un precedente en innovación y eficiencia. Los beneficios estratégicos incluyen:
+- **Mejora en la reputación institucional**: Reflejo de la adopción de soluciones modernas y tecnológicamente avanzadas.
+- **Aumento de la competitividad académica**: Atracción de más estudiantes interesados en una formación respaldada por infraestructura de calidad.
+- **Contribución al cumplimiento de objetivos educativos y administrativos**: Permitirá a la universidad optimizar procesos y recursos en todos los niveles.
 
 ## **Resumen Financiero**
-El presupuesto estimado de S/ 10,172.00 incluye todos los costos asociados al desarrollo, implementación y operación inicial del sistema. Esta inversión está respaldada por un análisis de factibilidad técnica, operativa y económica.
+El costo total estimado del proyecto es de **S/ 10,172.00**, desglosado en gastos de hardware, software, servicios en la nube, y personal técnico para el desarrollo y la implementación. Este presupuesto garantiza una relación costo-beneficio positiva, respaldada por un análisis de factibilidad técnica, operativa y financiera. A largo plazo, la inversión se recuperará mediante la optimización de recursos y la reducción de interrupciones en la red.
 
 # **2. Planteamiento del Problema**
 
 ## **2.1. Justificación del Proyecto**
-El desarrollo de un sistema de monitoreo y gestión de red es crucial para resolver los problemas de conectividad que afectan la calidad de las actividades académicas en los laboratorios de informática de la Universidad Privada de Tacna. Actualmente, la falta de monitoreo proactivo ocasiona interrupciones frecuentes y un uso ineficiente de los recursos tecnológicos, lo que impacta negativamente en estudiantes, docentes y personal administrativo.
+El desarrollo de un sistema de monitoreo y gestión de red es una necesidad urgente para resolver los problemas de conectividad que afectan la calidad de las actividades académicas y administrativas en la Universidad Privada de Tacna. Sin un monitoreo proactivo, los problemas actuales persisten y afectan de manera negativa la productividad de los estudiantes y docentes.
 
-Implementar el SIMGR-UPT permitirá identificar patrones de uso, resolver problemas antes de que escalen y optimizar la distribución de recursos de red, garantizando un servicio confiable y continuo.
+Con el SIMGR-UPT, la universidad podrá adoptar una postura proactiva en la gestión de su infraestructura de red, permitiendo una detección temprana de fallos, la optimización del ancho de banda y una experiencia de usuario más satisfactoria.
+
 
 ## **2.2. Objetivo General**
-Desarrollar e implementar un sistema integral que permita el monitoreo continuo, la gestión eficiente y el análisis detallado del rendimiento de la red en los laboratorios de informática de la Universidad Privada de Tacna.
+Desarrollar e implementar un sistema integral que permita el monitoreo continuo, la gestión eficiente y el análisis detallado del rendimiento de la red en los laboratorios de informática de la Universidad Privada de Tacna. Este sistema buscará optimizar el uso de los recursos tecnológicos y garantizar la continuidad operativa en las actividades académicas y administrativas.
 
 ## **2.3. Alcance**
 - **Incluye**:
   - Monitoreo de tráfico de red en los laboratorios.
   - Generación de reportes y alertas automáticas.
   - Análisis de patrones históricos de uso.
+  - Integración de tecnologías en la nube para el almacenamiento y procesamiento de datos.
 - **Excluye**:
   - Monitoreo de dispositivos personales.
-  - Gestión de aspectos de ciberseguridad.
+  - Gestión de aspectos de ciberseguridad externos al entorno académico.
 
 ## **2.4. Requerimientos del Sistema**
 - **Hardware**:
   - Computadoras con procesadores Intel Core i5 o superiores.
   - Almacenamiento SSD para manejo eficiente de datos.
+  - Dispositivos de red compatibles con monitoreo SNMP.
 - **Software**:
   - Python 3.12.
   - Servicios de AWS (Lambda, S3, Glue).
-  - Herramientas de visualización como Power BI.
+  - Herramientas de visualización como Power BI o Tableau.
 
 ## **2.5. Restricciones**
 - Presupuesto limitado a S/ 10,172.00.
-- Implementación exclusiva con servicios en la nube de AWS.
+- Implementación exclusiva con servicios en la nube de AWS para garantizar escalabilidad y seguridad.
 - Operatividad enfocada exclusivamente en los laboratorios de informática.
 
 ## **2.6. Supuestos**
 - La infraestructura de red existente soportará la carga de datos generada por el sistema.
 - El personal técnico de la universidad estará disponible para las capacitaciones y pruebas del sistema.
+- Los usuarios finales adoptarán rápidamente las herramientas de monitoreo implementadas.
 
 ## **2.7. Resultados Esperados**
 - **Estabilidad en la conectividad**: Reducción significativa de interrupciones.
 - **Optimización de recursos**: Uso eficiente del ancho de banda.
 - **Soporte técnico mejorado**: Resolución proactiva de problemas.
+- **Mejor experiencia de usuario**: Garantizando un entorno académico eficiente y funcional.
 
 ## **2.8. Metodología de Implementación**
 Se utilizará un enfoque incremental que incluye las siguientes etapas:

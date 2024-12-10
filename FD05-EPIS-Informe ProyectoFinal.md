@@ -106,3 +106,21 @@ Desarrollar e implementar un sistema robusto que permita la recopilación y supe
 - Establecer qué clases presentan mayor tráfico de red, proporcionando información valiosa para la gestión de recursos durante los períodos de mayor demanda.  
 - Apoyar al área de soporte proporcionando información detallada a través de reportes o un dashboard interactivo, lo que permitirá una gestión más proactiva y eficiente de los recursos tecnológicos, facilitando la identificación y resolución de problemas de la red.
 
+
+### 4. Marco Teórico
+El marco teórico de este proyecto se basa en conceptos fundamentales para la implementación del *Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)*:
+
+#### 1. **Monitoreo de Redes**
+El monitoreo de redes permite supervisar el rendimiento de los recursos tecnológicos en tiempo real. A través de herramientas especializadas, se pueden identificar problemas como cuellos de botella y fallas de conectividad, lo que facilita una gestión proactiva de la red.
+
+#### 2. **Gestión del Desempeño de Red**
+La gestión del desempeño de red implica evaluar factores como la disponibilidad, la velocidad y la calidad del servicio. Esta gestión es crucial en entornos educativos, donde el acceso confiable a los recursos en línea es esencial para las actividades académicas.
+
+#### 3. **Análisis de Datos y Automatización**
+El análisis automatizado de datos recolectados de la red permite identificar patrones y detectar problemas de manera anticipada. Tecnologías como Python y AWS facilitan la recopilación, almacenamiento y procesamiento de grandes volúmenes de datos para generar informes útiles.
+
+#### 4. **Seguridad de la Información**
+La seguridad de la información es vital para proteger los datos sensibles relacionados con el desempeño de la red. Se implementarán medidas de encriptación y autenticación para garantizar la privacidad e integridad de los datos.
+
+#### 5. **Tecnologías en la Nube**
+El uso de servicios en la nube, como AWS Lambda y S3, facilita el almacenamiento y procesamiento eficiente de datos. Estas plataformas permiten una escalabilidad flexible, adaptándose a las crecientes necesidades de monitoreo.

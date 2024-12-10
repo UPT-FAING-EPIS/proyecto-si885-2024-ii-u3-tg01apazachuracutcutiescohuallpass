@@ -266,8 +266,51 @@ El presupuesto estimado cubre los costos de hardware, software, personal y opera
 ## **3.3. Análisis de Factibilidad**
 El análisis muestra que los recursos actuales de la universidad son suficientes para implementar el sistema propuesto. El costo es competitivo considerando los beneficios a largo plazo, como la reducción de tiempos de inactividad y la optimización de recursos.
 
+- **Factibilidad Técnica**:  
+  El proyecto es técnicamente viable con la infraestructura de red existente (fibra óptica, dominio institucional, routers y switches). Además, utiliza herramientas de desarrollo basadas en tecnologías probadas, como Python.
+
+- **Factibilidad Económica**:  
+  El proyecto es económicamente viable, con un **VAN de S/. 3,441.78**, un **B/C de 1.34** y una **TIR del 21%**. Los costos totales ascienden a **S/. 10,172**, pero los ingresos anuales proyectados aseguran rentabilidad.
+
+- **Factibilidad Operativa**:  
+  La institución cuenta con personal técnico capacitado y una red adecuada para implementar y operar el sistema sin afectar significativamente las operaciones diarias.
+
+- **Factibilidad Legal**:  
+  Cumple con la **Ley de Protección de Datos Personales (Ley N° 29733)** en Perú y respeta las licencias de uso de las herramientas de software empleadas.
+
+- **Factibilidad Social**:  
+  El proyecto mejorará la eficiencia en el uso de recursos tecnológicos, beneficiando a estudiantes, docentes y personal técnico. Su aceptación está garantizada mediante capacitaciones y comunicación efectiva de sus ventajas.
+
+- **Factibilidad Ambiental**:  
+  Contribuye a la sostenibilidad al optimizar el consumo energético de equipos tecnológicos y reducir la necesidad de recursos físicos adicionales, alineándose con los objetivos de sostenibilidad de la institución.
+
+
 ## **3.4. Evaluación Financiera**
 Se espera recuperar la inversión mediante la mejora en la eficiencia operativa, reduciendo costos asociados a la resolución reactiva de problemas de red y optimizando el uso del ancho de banda.
+
+La evaluación financiera del proyecto considera una inversión inicial de **S/. 10,172** y proyecta ingresos y egresos anuales. Los datos clave incluyen:
+
+- **Ingresos anuales estimados**:  
+  - Reducción en pérdidas: **S/. 2000** (50%)  
+  - Mejora del sistema: **S/. 2000** (50%)  
+  - **Ingreso total anual**: **S/. 4000**
+
+- **Egresos anuales**:  
+  - Viáticos: **S/. 300**  
+  - Movilidad del equipo de trabajo: **S/. 200**  
+  - **Total anual de egresos**: **S/. 500**
+
+El flujo de efectivo proyectado para cinco años respalda la viabilidad económica del proyecto:
+
+- **Relación Beneficio/Costo (B/C)**: **1.34**  
+  - *Interpretación*: Un B/C superior a 1 confirma la viabilidad, generando **0.34 unidades monetarias** de beneficio por cada unidad invertida.
+
+- **Valor Actual Neto (VAN)**: **S/. 3,441.78**  
+  - *Interpretación*: El VAN positivo indica que el proyecto generará un valor adicional neto sobre la inversión inicial.
+
+- **Tasa Interna de Retorno (TIR)**: **21%**  
+  - *Interpretación*: Una TIR superior a la tasa de descuento asumida (9%) respalda la rentabilidad.
+
 
 # **4. Anexos**
 

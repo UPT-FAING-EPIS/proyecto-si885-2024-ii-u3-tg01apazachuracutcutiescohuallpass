@@ -70,3 +70,8 @@ Versión *{1.0}*
 ## 1. Antecedentes  
 
 El monitoreo de redes ha evolucionado de ser una tarea manual y reactiva a un proceso automatizado y proactivo. En instituciones educativas, como la Universidad Privada de Tacna (UPT), la gestión eficiente de la infraestructura tecnológica es crucial para garantizar el buen funcionamiento de los recursos, especialmente en los laboratorios de computadoras. La falta de herramientas de monitoreo automatizadas ha generado la necesidad de implementar soluciones que permitan evaluar el rendimiento de la red de manera continua y precisa. Este contexto ha llevado al desarrollo de herramientas como el "Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)", con el objetivo de optimizar el uso de los recursos de red en la UPT.
+
+## 2. Planteamiento del Problema  
+### 2.1. Problema  
+
+La Universidad Privada de Tacna (UPT) enfrenta dificultades en la gestión eficiente de su red de computadoras debido a la falta de un sistema automatizado que permita monitorear el rendimiento de la red de manera continua. La ausencia de visibilidad sobre el uso de los recursos de red dificulta la identificación de problemas de conectividad y la optimización de la infraestructura tecnológica, lo que puede afectar el desempeño de los estudiantes y docentes en los laboratorios de computadoras.

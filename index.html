@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivos a S3 y Ejecutar Crawler</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { width: 500px; margin: 0 auto; }
+        .status { font-weight: bold; color: blue; }
+        .upload-area { width: 100%; padding: 20px; border: 2px dashed #007BFF; margin-top: 10px; text-align: center; }
+        #statusLabel { font-size: 16px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Subir archivo a S3</h2>
+        <input type="file" id="fileInput" accept=".csv">
+        <div class="upload-area" id="uploadArea">
+            Arrastra tu archivo CSV aquí o selecciona uno desde el explorador.
+        </div>
+
+        <button onclick="uploadFile()">Subir archivo</button>
+        
+        <div id="statusLabel" class="status">Estado del Crawler: Desconocido</div>
+        <button onclick="runCrawler()">Ejecutar Crawler</button>
+    </div>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.938.0.min.js"></script>
+    <script>
+        // Configuración de AWS SDK con credenciales directamente incluidas
+        AWS.config.update({
+            region: "us-east-1", // Región de tu S3 y Glue
+            accessKeyId: "CREDENCIALES AWS",
+            secretAccessKey: "CREDENCIALES AWS"
+        });
+
+        const s3 = new AWS.S3();
+        const glue = new AWS.Glue();
+
+        // Función para manejar la carga del archivo
+        function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+            if (!file) {
+                alert('Por favor, selecciona un archivo primero.');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("file", file);
+
+            // Subir archivo a S3
+            const params = {
+                Bucket: 'netuptinteligencianegocios',
+                Key: `netuptinteligencianegocios/${file.name}`,
+                Body: file
+            };
+
+            s3.upload(params, function(err, data) {
+                if (err) {
+                    alert('Error al subir el archivo: ' + err.message);
+                } else {
+                    alert('Archivo cargado con éxito: ' + data.Location);
+                    updateCrawlerStatus(); // Actualizar el estado del crawler después de la carga
+                }
+            });
+        }
+
+        // Función para obtener el estado del Crawler
+        function updateCrawlerStatus() {
+            const params = { 
+                Name: "netuptinteligencianegocios-crawler"
+            };
+
+            glue.getCrawler(params, function(err, data) {
+                if (err) {
+                    alert('Error al obtener el estado del Crawler: ' + err.message);
+                } else {
+                    const status = data.Crawler.State;
+                    document.getElementById('statusLabel').textContent = "Estado del Crawler: " + status;
+                }
+            });
+        }
+
+        // Función para ejecutar el Crawler
+        function runCrawler() {
+            const params = { 
+                Name: "netuptinteligencianegocios-crawler"
+            };
+
+            glue.startCrawler(params, function(err, data) {
+                if (err) {
+                    alert('Error al ejecutar el Crawler: ' + err.message);
+                } else {
+                    alert('Crawler ejecutado con éxito');
+                    updateCrawlerStatus(); // Actualizar el estado del crawler
+                }
+            });
+        }
+
+        // Función para manejar el arrastre del archivo
+        document.getElementById('uploadArea').addEventListener('dragover', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.target.style.background = '#cce5ff'; // Cambiar color mientras arrastras
+        });
+
+        document.getElementById('uploadArea').addEventListener('dragleave', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.target.style.background = ''; // Restaurar color original
+        });
+
+        document.getElementById('uploadArea').addEventListener('drop', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.target.style.background = ''; // Restaurar color original
+
+            const file = event.dataTransfer.files[0];
+            if (file) {
+                document.getElementById('fileInput').files = event.dataTransfer.files;
+                uploadFile(); // Subir el archivo después de arrastrarlo
+            }
+        });
+    </script>
+</body>
+</html>

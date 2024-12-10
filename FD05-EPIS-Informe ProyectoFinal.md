@@ -149,3 +149,36 @@ El propósito del estudio de viabilidad económica es determinar los beneficios 
 | Disco de almacenamiento de seguridad (2 TB), color negro | 1 | 262.00 |  
 | Cooler Laptop | 1 | 60.00 |  
 | **Total** | | **3,222.00** |  
+
+##### Costos Operativos durante el Desarrollo  
+
+| Concepto | Costo |  
+|----------|-------|  
+| Viáticos | 300.00 |  
+| Movilidad del equipo de trabajo | 200.00 |  
+| **Total** | **500.00** |  
+
+##### Costos del Ambiente  
+
+| Concepto | Costo |  
+|----------|-------|  
+| Servicio VPS (Nube) | 350.00 |  
+| Software de Diagramas y Arquitectura del Proyecto | 100.00 |  
+| **Total** | **450.00** |  
+
+##### Costos de Personal  
+
+| Rol | Personas | Salario Mensual | Horas Mensuales |  
+|-----|----------|-----------------|-----------------|  
+| Desarrollador | 4 | 1000 | 60 |  
+| Gerente de Proyecto | 1 | 1200 | 60 |  
+
+##### Costos Totales del Desarrollo del Sistema  
+
+| Concepto | Costo Total (S/) |  
+|----------|------------------|  
+| Costos Generales | 3,222.00 |  
+| Costos Operativos durante el Desarrollo | 500.00 |  
+| Costos del Ambiente | 450.00 |  
+| Costos del Personal | 6,000.00 |  
+| **Total** | **10,172.00** |

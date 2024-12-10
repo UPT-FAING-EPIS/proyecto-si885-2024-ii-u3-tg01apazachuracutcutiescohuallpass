@@ -96,7 +96,8 @@ El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en C
 
 1.4.1 Objetivo general
 
-- Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT.
+
+- Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT, con el fin de graficar datos relevantes para facilitar el análisis y la toma de decisiones en soporte técnico.
 
 1.4.2 Objetivos Específicos
 
@@ -109,6 +110,7 @@ El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en C
 - Determinar los docentes que generan mayor tráfico de red, lo cual puede ayudar en la planificación de recursos y en la mejora del servicio durante las clases.
 - Establecer qué clases presentan mayor tráfico de red, proporcionando información valiosa para la gestión de recursos durante los períodos de mayor demanda.
 - Apoyar al área de soporte proporcionando información detallada a través de reportes o un dashboard interactivo, lo que permitirá una gestión más proactiva y eficiente de los recursos tecnológicos, facilitando la identificación y resolución de problemas de la red.
+- Realizar predicciones del consumo de GB por día de la semana utilizando modelos de análisis de datos, para anticipar la demanda de ancho de banda y optimizar la gestión de recursos en los laboratorios.
 
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>

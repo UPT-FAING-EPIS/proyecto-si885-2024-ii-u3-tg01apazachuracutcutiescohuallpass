@@ -97,6 +97,79 @@ Este proyecto posicionará a la Universidad Privada de Tacna como líder en la g
 ## **Resumen Financiero**
 El presupuesto estimado de S/ 10,172.00 incluye todos los costos asociados al desarrollo, implementación y operación inicial del sistema. Esta inversión está respaldada por un análisis de factibilidad técnica, operativa y económica.
 
+# **2. Planteamiento del Problema**
+
+## **2.1. Justificación del Proyecto**
+El desarrollo de un sistema de monitoreo y gestión de red es crucial para resolver los problemas de conectividad que afectan la calidad de las actividades académicas en los laboratorios de informática de la Universidad Privada de Tacna. Actualmente, la falta de monitoreo proactivo ocasiona interrupciones frecuentes y un uso ineficiente de los recursos tecnológicos, lo que impacta negativamente en estudiantes, docentes y personal administrativo.
+
+Implementar el SIMGR-UPT permitirá identificar patrones de uso, resolver problemas antes de que escalen y optimizar la distribución de recursos de red, garantizando un servicio confiable y continuo.
+
+## **2.2. Objetivo General**
+Desarrollar e implementar un sistema integral que permita el monitoreo continuo, la gestión eficiente y el análisis detallado del rendimiento de la red en los laboratorios de informática de la Universidad Privada de Tacna.
+
+## **2.3. Alcance**
+- **Incluye**:
+  - Monitoreo de tráfico de red en los laboratorios.
+  - Generación de reportes y alertas automáticas.
+  - Análisis de patrones históricos de uso.
+- **Excluye**:
+  - Monitoreo de dispositivos personales.
+  - Gestión de aspectos de ciberseguridad.
+
+## **2.4. Requerimientos del Sistema**
+- **Hardware**:
+  - Computadoras con procesadores Intel Core i5 o superiores.
+  - Almacenamiento SSD para manejo eficiente de datos.
+- **Software**:
+  - Python 3.12.
+  - Servicios de AWS (Lambda, S3, Glue).
+  - Herramientas de visualización como Power BI.
+
+## **2.5. Restricciones**
+- Presupuesto limitado a S/ 10,172.00.
+- Implementación exclusiva con servicios en la nube de AWS.
+- Operatividad enfocada exclusivamente en los laboratorios de informática.
+
+## **2.6. Supuestos**
+- La infraestructura de red existente soportará la carga de datos generada por el sistema.
+- El personal técnico de la universidad estará disponible para las capacitaciones y pruebas del sistema.
+
+## **2.7. Resultados Esperados**
+- **Estabilidad en la conectividad**: Reducción significativa de interrupciones.
+- **Optimización de recursos**: Uso eficiente del ancho de banda.
+- **Soporte técnico mejorado**: Resolución proactiva de problemas.
+
+## **2.8. Metodología de Implementación**
+Se utilizará un enfoque incremental que incluye las siguientes etapas:
+1. **Levantamiento de requisitos**: Identificar necesidades y especificaciones técnicas.
+2. **Diseño del sistema**: Crear diagramas UML y especificar componentes clave.
+3. **Desarrollo**: Implementar scripts en Python y configurar servicios AWS.
+4. **Pruebas**: Validar la funcionalidad y el rendimiento del sistema.
+5. **Implementación**: Desplegar el sistema en un laboratorio piloto y capacitar al personal.
+
+## **2.9. Actores Claves**
+- **Área de TI**: Responsable de la gestión y supervisión del sistema.
+- **Soporte Técnico**: Operación y mantenimiento diario del sistema.
+- **Estudiantes y Docentes**: Usuarios indirectos beneficiados por la mejora en la conectividad.
+
+## **2.10. Papeles y Responsabilidades del Personal**
+- **Gerente de Proyecto**:
+  - Supervisar las actividades del equipo de desarrollo.
+  - Garantizar el cumplimiento de plazos y objetivos.
+- **Desarrolladores**:
+  - Implementar y probar el sistema.
+  - Documentar las soluciones técnicas.
+- **Técnicos de Soporte**:
+  - Monitorear y operar el sistema diariamente.
+  - Generar reportes de uso y alertas.
+
+## **2.11. Plan de Monitoreo y Evaluación**
+El desempeño del sistema será evaluado trimestralmente mediante:
+- **Métricas clave**:
+  - Tiempo promedio de respuesta ante alertas.
+  - Reducción en interrupciones de red.
+- **Informes de uso**:
+  - Generación de reportes automáticos para evaluar patrones de uso y efectividad del sistema.
 
 ## ANEXO 01  
 ### Requerimientos del Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)

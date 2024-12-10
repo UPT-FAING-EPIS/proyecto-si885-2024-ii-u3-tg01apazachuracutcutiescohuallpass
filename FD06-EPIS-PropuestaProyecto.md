@@ -6,7 +6,7 @@
 **FACULTAD DE INGENIERIA**  
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Informe Final**  
+**Propuesta Proyecto**  
 **Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)**
 
 Curso: Inteligencia de Negocios  

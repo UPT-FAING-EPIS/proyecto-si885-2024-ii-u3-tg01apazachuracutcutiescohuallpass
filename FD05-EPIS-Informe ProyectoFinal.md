@@ -124,3 +124,28 @@ La seguridad de la información es vital para proteger los datos sensibles relac
 
 #### 5. **Tecnologías en la Nube**
 El uso de servicios en la nube, como AWS Lambda y S3, facilita el almacenamiento y procesamiento eficiente de datos. Estas plataformas permiten una escalabilidad flexible, adaptándose a las crecientes necesidades de monitoreo.
+
+
+## 5. Desarrollo de la Solución  
+
+### 5.1. Análisis de Factibilidad  
+
+#### 5.1.1. Factibilidad Técnica  
+**Infraestructura de Red:**  
+- **Conectividad a Internet:** La UPT cuenta con conectividad a internet mediante fibra óptica, ofreciendo alta velocidad y estabilidad para la transferencia de datos.  
+- **Red Física:** La infraestructura de red incluye routers, switches y puntos de acceso inalámbricos distribuidos por el campus. Esta red está diseñada para soportar múltiples dispositivos conectados simultáneamente, facilitando la recolección de datos de diferentes puntos sin sobrecargar los recursos.  
+
+**Dominio y Gestión de Red:**  
+- **Dominio Institucional:** La UPT dispone de un dominio institucional que permite la administración centralizada de las aplicaciones y herramientas de monitoreo. Esto facilita la integración del sistema y su gestión a nivel de toda la red universitaria.  
+
+#### 5.1.2. Factibilidad Económica  
+El propósito del estudio de viabilidad económica es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
+
+##### Costos Generales  
+
+| Material | Cantidad | Costo Unitario (S/) |  
+|----------|----------|---------------------|  
+| LAPTOP INTEL CORE I7 3.4 GHZ MONITOR 27'' RAM 16GB DISCO DURO 1TB + SSD 480GB | 1 | 2900.00 |  
+| Disco de almacenamiento de seguridad (2 TB), color negro | 1 | 262.00 |  
+| Cooler Laptop | 1 | 60.00 |  
+| **Total** | | **3,222.00** |  

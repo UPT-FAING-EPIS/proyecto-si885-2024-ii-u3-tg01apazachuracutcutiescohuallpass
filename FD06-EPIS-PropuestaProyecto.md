@@ -167,13 +167,14 @@ La implementación del SIMGR-UPT (Sistema de Monitoreo de Gestión de Redes) se 
 
 ---
 
+
 ### **Gestión de Proyectos**
 Esta etapa se centra en la planificación y gestión integral del proyecto para asegurar que todas las fases se lleven a cabo de forma eficiente y dentro del presupuesto.
 
 - **Project Charter**: Definir el acta de constitución del proyecto, que incluye la misión, visión y objetivos del SIMGR-UPT.
 - **Declaración de Alcance**: Especificar los límites del proyecto, incluyendo los módulos de monitoreo y alertas.
 - **Plan del Proyecto**: Elaborar el cronograma de actividades, recursos necesarios y las asignaciones de responsabilidad.
-- **Informe de Estado del Proyecto**: Generar informes periódicos sobre el avance del proyecto para los stakeholders.
+- **Informe de Estado del Proyecto**: Generar informes periódicos sobre el avance del proyecto dentro del equipo de trabajo.
 - **Reunión de Coordinación Semanal**: Realizar reuniones semanales con el equipo de trabajo para revisar el progreso y ajustar las acciones.
 - **Cierre del Proyecto**: Formalizar el cierre del proyecto una vez que el sistema esté desplegado y funcionando correctamente.
 
@@ -184,7 +185,7 @@ En esta fase se definen los requisitos y objetivos del sistema, identificando lo
 
 #### **Especificación de Requerimientos del Software**
 - **Módulo de Monitoreo de Red**: Definir los requisitos para la recopilación de datos y monitoreo en tiempo real de la infraestructura de red.
-- **Módulo de Alertas Automáticas**: Establecer los criterios para la generación y notificación de alertas cuando se detecten problemas en la red.
+- **Módulo de Alertas Automáticas**: Establecer los criterios para la generación de alertas internas cuando se detecten problemas en la red.
 - **Módulo de Gestión de Datos**: Especificar cómo se almacenarán y analizarán los datos recolectados.
 - **Documento de Visión**: Desarrollar un documento que describa el propósito del proyecto y cómo se alinean los objetivos con la misión de la universidad.
 
@@ -195,7 +196,7 @@ Esta fase implica el diseño detallado del sistema y su implementación, basada 
 
 #### **Modelo de Casos de Uso**
 - **Monitoreo de Red**: Crear diagramas de casos de uso para el monitoreo de los dispositivos y la red de la universidad.
-- **Generación de Alertas**: Modelar los casos de uso para la configuración y gestión de alertas automáticas.
+- **Generación de Alertas**: Modelar los casos de uso para la configuración y gestión de alertas internas.
 - **Gestión de Datos**: Establecer casos de uso para la administración y análisis de los datos recolectados.
 
 #### **Diseño Técnico**

@@ -115,51 +115,79 @@ Con el SIMGR-UPT, la universidad podrá adoptar una postura proactiva en la gest
 
 
 ## **2.2. Objetivo General**
-Desarrollar e implementar un sistema integral que permita el monitoreo continuo, la gestión eficiente y el análisis detallado del rendimiento de la red en los laboratorios de informática de la Universidad Privada de Tacna. Este sistema buscará optimizar el uso de los recursos tecnológicos y garantizar la continuidad operativa en las actividades académicas y administrativas.
+Desarrollar e implementar un sistema integral que permita el monitoreo continuo, la gestión eficiente y el análisis detallado del rendimiento de la red en los laboratorios de informática de la Universidad Privada de Tacna. Este sistema optimizará el uso de los recursos tecnológicos, reducirá las interrupciones y mejorará la experiencia de los usuarios.
 
 ## **2.3. Alcance**
+El SIMGR-UPT abarcará las siguientes actividades y áreas:
 - **Incluye**:
-  - Monitoreo de tráfico de red en los laboratorios.
-  - Generación de reportes y alertas automáticas.
-  - Análisis de patrones históricos de uso.
-  - Integración de tecnologías en la nube para el almacenamiento y procesamiento de datos.
+  - Monitoreo de tráfico en los laboratorios de informática.
+  - Implementación de alertas automáticas para identificar problemas de conectividad.
+  - Generación de reportes analíticos y patrones históricos de uso de la red.
+  - Integración con la infraestructura tecnológica existente de la universidad.
 - **Excluye**:
-  - Monitoreo de dispositivos personales.
-  - Gestión de aspectos de ciberseguridad externos al entorno académico.
+  - Gestión de dispositivos personales conectados a la red (como laptops o teléfonos móviles).
+  - Monitoreo de aspectos relacionados con ciberseguridad externa.
+
+El proyecto se centrará exclusivamente en optimizar el uso de la red dentro de los laboratorios académicos, asegurando que las soluciones implementadas satisfagan las necesidades específicas del entorno educativo.
 
 ## **2.4. Requerimientos del Sistema**
+Para garantizar el éxito del SIMGR-UPT, se han identificado los siguientes requerimientos:
+
 - **Hardware**:
-  - Computadoras con procesadores Intel Core i5 o superiores.
-  - Almacenamiento SSD para manejo eficiente de datos.
-  - Dispositivos de red compatibles con monitoreo SNMP.
+  - Computadoras con procesadores Intel Core i5 o superiores, 8 GB de RAM y almacenamiento SSD.
+  - Dispositivos de red compatibles con SNMP (Protocolo Simple de Administración de Red) para permitir un monitoreo continuo.
 - **Software**:
-  - Python 3.12.
-  - Servicios de AWS (Lambda, S3, Glue).
-  - Herramientas de visualización como Power BI o Tableau.
+  - Python 3.12 para el desarrollo de scripts automatizados.
+  - AWS Lambda para ejecutar procesos sin servidor.
+  - AWS S3 y Glue para almacenamiento y análisis de datos.
+  - Herramientas de visualización como Power BI para la generación de reportes interactivos.
 
 ## **2.5. Restricciones**
-- Presupuesto limitado a S/ 10,172.00.
-- Implementación exclusiva con servicios en la nube de AWS para garantizar escalabilidad y seguridad.
-- Operatividad enfocada exclusivamente en los laboratorios de informática.
+El proyecto debe ajustarse a las siguientes restricciones:
+1. **Presupuesto limitado**: El costo total no debe superar los S/ 10,172.00.
+2. **Plazo de implementación**: El sistema debe estar operativo en un plazo máximo de tres meses.
+3. **Alcance geográfico**: El monitoreo y la implementación se limitarán exclusivamente a los laboratorios de informática de la universidad.
+4. **Dependencia de servicios en la nube**: Todas las herramientas y procesos estarán alojados y gestionados en AWS para garantizar escalabilidad y seguridad.
 
 ## **2.6. Supuestos**
-- La infraestructura de red existente soportará la carga de datos generada por el sistema.
-- El personal técnico de la universidad estará disponible para las capacitaciones y pruebas del sistema.
-- Los usuarios finales adoptarán rápidamente las herramientas de monitoreo implementadas.
+- La infraestructura de red existente será suficiente para soportar las nuevas cargas de monitoreo y procesamiento de datos.
+- El personal técnico de la universidad estará disponible para participar en capacitaciones y pruebas del sistema.
+- La comunidad universitaria adoptará rápidamente las nuevas tecnologías y se beneficiará de las mejoras implementadas.
 
 ## **2.7. Resultados Esperados**
-- **Estabilidad en la conectividad**: Reducción significativa de interrupciones.
-- **Optimización de recursos**: Uso eficiente del ancho de banda.
-- **Soporte técnico mejorado**: Resolución proactiva de problemas.
-- **Mejor experiencia de usuario**: Garantizando un entorno académico eficiente y funcional.
+Al finalizar el proyecto, se espera:
+1. **Estabilidad en la conectividad**: Reducción significativa de interrupciones en la red.
+2. **Optimización de recursos**: Uso más eficiente del ancho de banda disponible y mejor distribución de los recursos tecnológicos.
+3. **Toma de decisiones basada en datos**: Generación de reportes analíticos confiables para planificar mejoras en la red.
+4. **Satisfacción de usuarios**: Mayor confianza y comodidad por parte de estudiantes, docentes y personal administrativo al utilizar la red.
 
 ## **2.8. Metodología de Implementación**
-Se utilizará un enfoque incremental que incluye las siguientes etapas:
-1. **Levantamiento de requisitos**: Identificar necesidades y especificaciones técnicas.
-2. **Diseño del sistema**: Crear diagramas UML y especificar componentes clave.
-3. **Desarrollo**: Implementar scripts en Python y configurar servicios AWS.
-4. **Pruebas**: Validar la funcionalidad y el rendimiento del sistema.
-5. **Implementación**: Desplegar el sistema en un laboratorio piloto y capacitar al personal.
+La implementación del SIMGR-UPT se desarrollará utilizando un enfoque incremental y ágil, siguiendo las etapas descritas a continuación:
+
+1. **Levantamiento de requisitos**:
+   - Reuniones con los stakeholders (docentes, estudiantes y personal técnico) para identificar necesidades y prioridades.
+   - Documentación de especificaciones técnicas y funcionales.
+
+2. **Diseño del sistema**:
+   - Creación de diagramas UML, como casos de uso y diagramas de actividades, para modelar la solución.
+   - Diseño de la arquitectura técnica, incluyendo hardware, software y servicios en la nube.
+
+3. **Desarrollo**:
+   - Implementación de scripts en Python para el monitoreo de la red y la generación de alertas automáticas.
+   - Configuración de servicios en AWS para el almacenamiento y análisis de datos.
+
+4. **Pruebas**:
+   - Validación funcional del sistema para garantizar que cumple con los requerimientos.
+   - Pruebas de carga y estrés para verificar su desempeño bajo diferentes condiciones.
+
+5. **Implementación piloto**:
+   - Despliegue inicial en un laboratorio seleccionado, con monitoreo constante del desempeño.
+   - Capacitación al personal técnico y recopilación de feedback de los usuarios.
+
+6. **Despliegue final**:
+   - Expansión del sistema al resto de los laboratorios.
+   - Ajustes finales basados en los comentarios recopilados durante la fase piloto.
+
 
 ## **2.9. Actores Claves**
 - **Área de TI**: Responsable de la gestión y supervisión del sistema.

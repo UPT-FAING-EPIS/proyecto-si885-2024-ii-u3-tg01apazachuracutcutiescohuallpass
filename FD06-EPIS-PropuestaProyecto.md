@@ -218,6 +218,39 @@ El desempeño del sistema será evaluado trimestralmente mediante:
 ## **3.1. Planteamiento del Presupuesto**
 El presupuesto estimado cubre los costos de hardware, software, personal y operaciones necesarias para desarrollar e implementar el sistema SIMGR-UPT. Este cálculo garantiza una relación costo-beneficio favorable para la Universidad Privada de Tacna.
 
+##### Costos Generales  
+
+| Material | Cantidad | Costo Unitario (S/) |  
+|----------|----------|---------------------|  
+| LAPTOP INTEL CORE I7 3.4 GHZ MONITOR 27'' RAM 16GB DISCO DURO 1TB + SSD 480GB | 1 | 2900.00 |  
+| Disco de almacenamiento de seguridad (2 TB), color negro | 1 | 262.00 |  
+| Cooler Laptop | 1 | 60.00 |  
+| **Total** | | **3,222.00** |  
+
+##### Costos Operativos durante el Desarrollo  
+
+| Concepto | Costo |  
+|----------|-------|  
+| Viáticos | 300.00 |  
+| Movilidad del equipo de trabajo | 200.00 |  
+| **Total** | **500.00** |  
+
+##### Costos del Ambiente  
+
+| Concepto | Costo |  
+|----------|-------|  
+| Servicio VPS (Nube) | 350.00 |  
+| Software de Diagramas y Arquitectura del Proyecto | 100.00 |  
+| **Total** | **450.00** |  
+
+##### Costos de Personal  
+
+| Rol | Personas | Salario Mensual | Horas Mensuales |  
+|-----|----------|-----------------|-----------------|  
+| Desarrollador | 4 | 1000 | 60 |  
+| Gerente de Proyecto | 1 | 1200 | 60 |  
+
+
 ## **3.2. Presupuesto**
 - **Hardware**:
   - Computadoras y almacenamiento: S/ 3,222.00

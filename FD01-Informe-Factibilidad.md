@@ -310,7 +310,7 @@ VAN = S/. 13,613.78 - S/ 10,172
 VAN = S/. 3,441.78
 
 
-**Interpretación**: El VAN es positivo (S/. 3,441.78), lo que indica que el proyecto generará un valor adicional neto sobre la inversión inicial, por lo que es viable.
+**Interpretación**: El VAN es positivo (S/. 3,441.78), el proyecto generará un valor adicional neto sobre la inversión inicial, por lo que es viable.
 
 ### 5.1.2.3. Tasa Interna de Retorno (TIR)
 

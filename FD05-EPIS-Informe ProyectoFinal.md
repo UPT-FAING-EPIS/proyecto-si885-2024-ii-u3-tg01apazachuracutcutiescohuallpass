@@ -79,3 +79,14 @@ La Universidad Privada de Tacna (UPT) enfrenta dificultades en la gestión efici
 ### 2.2. Justificación  
 La implementación de una herramienta de monitoreo automatizado es esencial para mejorar la eficiencia operativa de la red en los laboratorios de computadoras de la UPT. Un sistema como el SIMGR-UPT permite la recopilación y análisis de datos sobre el desempeño de la red, lo que facilita la identificación de patrones de uso y posibles problemas de conectividad. Esto permite a los administradores de TI tomar decisiones basadas en datos concretos, mejorar el soporte de red y realizar mantenimientos preventivos, asegurando un funcionamiento óptimo de los recursos tecnológicos y beneficiando tanto a estudiantes como a docentes.
 
+### 2.3. Alcance  
+El alcance del proyecto se centra en el análisis del desempeño de la red en los laboratorios de computadoras de la UPT. El sistema SIMGR-UPT incluirá los siguientes componentes clave:
+
+- **Repositorio inicial**: Recepción de datos en formato CSV desde distintas fuentes.
+- **AWS Lambda**: Ejecución automatizada de scripts en Python para procesar los datos de red.
+- **AWS S3 y Glue**: Almacenamiento y configuración automática de los datos, generando tablas para consulta y análisis.
+- **AWS Athena**: Plataforma de consulta para procesar los datos mediante SQL y generar métricas clave.
+- **Power BI**: Visualización avanzada e interactiva de los datos.
+
+El sistema también incorporará la automatización del flujo de datos en la nube y tendrá la capacidad de manejar volúmenes crecientes de datos. Sin embargo, no se contempla el desarrollo de integraciones directas con hardware físico ni aplicaciones móviles dentro de este alcance.
+

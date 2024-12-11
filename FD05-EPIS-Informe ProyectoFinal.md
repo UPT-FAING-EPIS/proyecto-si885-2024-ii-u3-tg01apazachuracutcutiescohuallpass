@@ -237,8 +237,7 @@ El proceso de implementación se dividirá en las siguientes fases:
 Esta metodología garantiza que el sistema será entregado de manera eficiente, con un enfoque claro en la calidad y la mejora continua.
 
 ## 6. Cronograma  
-![Cronograma](media/cronograma.PNG)
-
+![Cronograma](https://github.com/UPT-FAING-EPIS/proyecto-si885-2024-ii-u3-tg01apazachuracutcutiescohuallpass/raw/main/media/cronograma.PNG)
 
 
 ## 7. Presupuesto  

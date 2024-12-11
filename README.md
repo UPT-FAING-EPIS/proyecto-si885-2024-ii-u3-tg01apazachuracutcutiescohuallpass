@@ -187,7 +187,8 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 - Antes de cargar datos en Power BI, verifica que el bucket S3 contiene los datos esperados.
 - Durante la exposición, utiliza `final data prueba.csv` para las pruebas de carga en tiempo real.
 
-# Explicación y Video
-Puedes ver el video aquí:  
-[Ver en YouTube](https://youtu.be/sGZVTyP8z5c)
+# **🎥 Explicación y Video**
+
+[**Haz clic aquí para ver el video**](https://youtu.be/sGZVTyP8z5c)
+
 

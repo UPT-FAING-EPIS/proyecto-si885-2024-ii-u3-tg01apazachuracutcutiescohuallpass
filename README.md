@@ -186,3 +186,8 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 - Asegúrate de que las credenciales de AWS están configuradas antes de ejecutar los scripts.
 - Antes de cargar datos en Power BI, verifica que el bucket S3 contiene los datos esperados.
 - Durante la exposición, utiliza `final data prueba.csv` para las pruebas de carga en tiempo real.
+
+# Explicación y Video
+Puedes ver el video aquí:  
+[Ver en YouTube](https://youtu.be/sGZVTyP8z5c)
+

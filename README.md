@@ -1,5 +1,7 @@
 # SIMGR-UPT: Sistema de Monitoreo y Gestión de Red para Laboratorios UPT
 
+## GITHUB PAGES subir archivos al bucket web: https://upt-faing-epis.github.io/proyecto-si885-2024-ii-u3-tg01apazachuracutcutiescohuallpass/ 
+
 **Descripción:**  
 El **Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)** tiene como objetivo supervisar y gestionar en tiempo real el rendimiento de la red en los laboratorios de la Universidad Privada de Tacna. Esto incluye monitoreo de ancho de banda, estabilidad de la conexión y detección de problemas para optimizar los recursos y garantizar un entorno eficiente.
 

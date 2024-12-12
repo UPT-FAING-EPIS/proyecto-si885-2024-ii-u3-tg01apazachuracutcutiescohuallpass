@@ -1,12 +1,15 @@
-name: Ejecutar Analisis Exploratorio
+name: Ejecutar Analisis Exploratorio Manualmente
 
 on:
-  push:
-    branches:
-      - main  # o la rama que quieras
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
+        required: false
 
 jobs:
   run_analysis:
@@ -19,12 +22,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8' # o la versión de Python que necesites
+          python-version: '3.8'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jupyter pandas numpy matplotlib nbconvert
+          pip install jupyter nbconvert pandoc  # Añadido pandoc para conversión a PDF si es necesario
 
       - name: Navigate to artifacts and run notebook
         run: |
@@ -41,8 +44,13 @@ jobs:
             echo "Archivos encontrados."
           fi
 
-      - name: Upload results
+      - name: Convert notebook to HTML for review
+        run: |
+          cd artefactos
+          jupyter nbconvert "analisis exploratorio de datos.ipynb" --to html
+
+      - name: Upload HTML results
         uses: actions/upload-artifact@v4
         with:
-          name: executed-notebook
-          path: artefactos/"analisis exploratorio de datos.ipynb"
+          name: html-notebook
+          path: artefactos/"analisis exploratorio de datos.html"

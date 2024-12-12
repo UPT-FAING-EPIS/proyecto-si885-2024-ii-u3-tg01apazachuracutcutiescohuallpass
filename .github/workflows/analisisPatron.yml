@@ -32,7 +32,7 @@ jobs:
       - name: Navigate to artifacts and run notebook
         run: |
           cd artefactos
-          jupyter nbconvert --to notebook --execute --inplace "analisis exploratorio de datos.ipynb"
+          jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=python3 "analisis exploratorio de datos.ipynb"
 
       - name: Check if files exist
         run: |

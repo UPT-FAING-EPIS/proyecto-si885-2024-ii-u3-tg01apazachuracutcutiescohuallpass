@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.8' # o la versión de Python que necesites
 
@@ -42,7 +42,7 @@ jobs:
           fi
 
       - name: Upload results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: executed-notebook
           path: artefactos/"analisis exploratorio de datos.ipynb"

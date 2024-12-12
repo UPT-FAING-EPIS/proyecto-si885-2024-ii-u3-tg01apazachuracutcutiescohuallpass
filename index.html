@@ -29,12 +29,12 @@
     <script src="https://sdk.amazonaws.com/js/aws-sdk-2.938.0.min.js"></script>
     <script>
         // Configuración de AWS SDK usando Cognito
-        AWS.config.update({
-            region: "us-east-1",
-            credentials: new AWS.CognitoIdentityCredentials({
-                IdentityPoolId: "us-east-1:example-identity-pool-id" // Reemplázalo con tu ID de Pool de Identidad
-            })
-        });
+AWS.config.update({
+    region: "us-east-1",
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+});
+
 
         const s3 = new AWS.S3();
         const glue = new AWS.Glue();

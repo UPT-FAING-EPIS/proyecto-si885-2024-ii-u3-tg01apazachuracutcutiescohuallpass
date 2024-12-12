@@ -93,7 +93,7 @@ El sistema también incorporará la automatización del flujo de datos en la nub
 ## 3. Objetivos  
 
 ### 3.1. Objetivo General  
-Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT.
+Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT, con el fin de graficar datos relevantes para facilitar el análisis y la toma de decisiones en soporte técnico.
 
 ### 3.2. Objetivos Específicos  
 - Diseñar un script para la recolección de datos que monitorice el rendimiento de la red de cada computadora en los laboratorios.  

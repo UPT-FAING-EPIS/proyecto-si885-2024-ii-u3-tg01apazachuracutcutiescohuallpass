@@ -312,7 +312,7 @@ El análisis muestra que los recursos actuales de la universidad son suficientes
 
 - **Factibilidad Legal**:  
   Cumple con la **Ley de Protección de Datos Personales (Ley N° 29733)** en Perú y respeta las licencias de uso de las herramientas de software empleadas.
-
+ 
 - **Factibilidad Social**:  
   El proyecto mejorará la eficiencia en el uso de recursos tecnológicos, beneficiando a estudiantes, docentes y personal técnico. Su aceptación está garantizada mediante capacitaciones y comunicación efectiva de sus ventajas.
 

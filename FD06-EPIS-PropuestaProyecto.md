@@ -345,7 +345,7 @@ El flujo de efectivo proyectado para cinco años respalda la viabilidad económi
 
 - **Tasa Interna de Retorno (TIR)**: **21%**  
   - *Interpretación*: Una TIR superior a la tasa de descuento asumida (9%) respalda la rentabilidad.
-
+ 
 
 # **4. Anexos**
 

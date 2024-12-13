@@ -115,7 +115,7 @@ Con el SIMGR-UPT, la universidad podrá adoptar una postura proactiva en la gest
 
 
 ## **2.2. Objetivo General**
-Desarrollar e implementar un sistema integral que permita el monitoreo continuo, la gestión eficiente y el análisis detallado del rendimiento de la red en los laboratorios de informática de la Universidad Privada de Tacna. Este sistema optimizará el uso de los recursos tecnológicos, reducirá las interrupciones y mejorará la experiencia de los usuarios.
+Desarrollar e implementar un sistema robusto que permita la recopilación y supervisión de la red en las computadoras en los laboratorios de la UPT, con el fin de graficar datos relevantes para facilitar el análisis y la toma de decisiones en soporte técnico.
 
 ## **2.3. Alcance**
 El SIMGR-UPT abarcará las siguientes actividades y áreas:

@@ -21,7 +21,7 @@ El **Sistema de Monitoreo y Gestión de Red para Laboratorios UPT (SIMGR-UPT)** 
 ## Reporte de Power BI
 📊 **Puedes acceder al reporte de Power BI haciendo clic en el siguiente enlace:**
 
-[Ver Reporte en Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjdlNzc2M2ItMmIzNi00NTI4LThkYWMtNGM3Yzc0N2U4OThlIiwidCI6IjE2NzFiMjY2LTJhNDktNDYyYi05Zjk1LWU4MzFjOGRlMDRkOSIsImMiOjEwfQ%3D%3D)
+[Ver Reporte en Power BI](https://app.powerbi.com/view?r=eyJrIjoiNjljYmE5NzAtZjk2My00NDFlLWE5MDktNDAyNzE2OWI0YjZmIiwidCI6IjE2NzFiMjY2LTJhNDktNDYyYi05Zjk1LWU4MzFjOGRlMDRkOSIsImMiOjEwfQ%3D%3D)
 
 
 ## Diagramas

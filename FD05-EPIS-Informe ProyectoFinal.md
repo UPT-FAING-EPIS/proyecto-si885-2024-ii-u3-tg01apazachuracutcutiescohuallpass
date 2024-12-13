@@ -262,11 +262,8 @@ El proyecto es completamente viable, dado que la infraestructura de la UPT permi
 
 - **Optimización Regular**: A medida que el sistema y la infraestructura de red evolucionen, se recomienda realizar ajustes regulares en los scripts y en la configuración de AWS para manejar de manera eficiente los crecientes volúmenes de datos.
 
-- **Mejora en la Integración**: Se sugiere considerar futuras integraciones con otras herramientas tecnológicas o sistemas internos de la universidad, como los sistemas de gestión de usuarios o plataformas académicas, para ampliar el alcance del monitoreo y mejorar la toma de decisiones.
-
 - **Evaluación de Resultados**: Se recomienda realizar evaluaciones periódicas del desempeño del sistema, con el fin de verificar si las metas iniciales del proyecto se están cumpliendo, y ajustar el sistema en función de nuevos requerimientos o problemas detectados.
 
-- **Escalabilidad y Mantenimiento**: A medida que la universidad crece y aumenta el número de dispositivos y usuarios en la red, es importante garantizar que el sistema sea escalable y que se le dé mantenimiento continuo para asegurar su fiabilidad a largo plazo.
 
 ## 10. Bibliografía
 

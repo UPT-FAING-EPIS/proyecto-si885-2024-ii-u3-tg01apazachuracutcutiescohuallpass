@@ -21,6 +21,18 @@ jobs:
           echo "Contenido de ejemplo para el release" > build/artifact.txt
           zip -r build/artifact.zip build/
 
-      # Notificar que el tag ya existe
+      # Generar mensaje para el release
+      - name: Prepare Release Info
+        run: |
+          echo "Creando información para el release..."
+          echo "**Release Name:** Release ${{ github.ref_name }}" > release_info.txt
+          echo "**Tag:** ${{ github.ref_name }}" >> release_info.txt
+          echo "**Changes:**" >> release_info.txt
+          git log --oneline $(git describe --tags --abbrev=0)..HEAD >> release_info.txt
+
+      # Notificar sobre el release manual
       - name: Notify
-        run: echo "El tag ${{ github.ref_name }} ya existe. Continuando con el proceso."
+        run: |
+          echo "El tag ${{ github.ref_name }} ya existe."
+          echo "Por favor, crea un release manualmente con la siguiente información:"
+          cat release_info.txt

@@ -212,7 +212,7 @@ Esta fase incluye el desarrollo del sistema y las pruebas para asegurar su rendi
 - **Prototipo del Sistema**: Desarrollar un prototipo funcional del sistema para evaluar su viabilidad y funcionamiento.
 - **Pruebas de Validación**: Realizar pruebas unitarias, de integración y de carga para asegurar que el sistema cumpla con los requisitos.
 - **Documento de Especificaciones Técnicas**: Mantener y actualizar la documentación técnica detallada durante todo el proceso de desarrollo.
-
+ 
 ---
 
 ### **Adquisición de Tecnología**

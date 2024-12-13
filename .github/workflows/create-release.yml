@@ -1,4 +1,4 @@
-name: Create Release Without Token
+name: Create Automatic Release
 
 on:
   push:
@@ -14,25 +14,34 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Generar artefacto
+      # Generar el artefacto
       - name: Build Artifact
         run: |
           mkdir -p build
           echo "Contenido de ejemplo para el release" > build/artifact.txt
           zip -r build/artifact.zip build/
 
-      # Generar mensaje para el release
-      - name: Prepare Release Info
+      # Crear el release automáticamente
+      - name: Create GitHub Release
         run: |
-          echo "Creando información para el release..."
-          echo "**Release Name:** Release ${{ github.ref_name }}" > release_info.txt
-          echo "**Tag:** ${{ github.ref_name }}" >> release_info.txt
-          echo "**Changes:**" >> release_info.txt
-          git log --oneline $(git describe --tags --abbrev=0)..HEAD >> release_info.txt
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "tag_name": "'${{ github.ref_name }}'",
+            "target_commitish": "main",
+            "name": "Release '${{ github.ref_name }}'",
+            "body": "Automated release notes for '${{ github.ref_name }}'.",
+            "draft": false,
+            "prerelease": false
+          }' \
+          https://api.github.com/repos/${{ github.repository }}/releases
 
-      # Notificar sobre el release manual
-      - name: Notify
-        run: |
-          echo "El tag ${{ github.ref_name }} ya existe."
-          echo "Por favor, crea un release manualmente con la siguiente información:"
-          cat release_info.txt
+      # Subir el artefacto al release
+      - name: Upload Artifact
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./build/artifact.zip
+          asset_name: artifact.zip
+          asset_content_type: application/zip

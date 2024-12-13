@@ -3,7 +3,7 @@ name: Create Release
 on:
   push:
     tags:
-      - 'v*.*.*' # Actúa cuando se empuja un tag que sigue el formato semántico (ej., v1.0.0).
+      - 'v*.*.*'
 
 jobs:
   release:

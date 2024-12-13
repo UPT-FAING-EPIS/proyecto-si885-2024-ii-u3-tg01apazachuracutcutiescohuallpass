@@ -76,7 +76,7 @@ Actualmente, la red en los laboratorios de la universidad presenta los siguiente
 - **Falta de monitoreo proactivo**: Esto dificulta la identificación y resolución de problemas antes de que afecten a los usuarios, lo que genera interrupciones constantes.
 - **Uso ineficiente de recursos**: La ausencia de un análisis detallado y patrones de uso históricos contribuye al desaprovechamiento del ancho de banda y otros recursos clave.
 - **Impacto negativo en la calidad educativa**: La conectividad irregular afecta directamente la experiencia de aprendizaje de los estudiantes y el trabajo de los docentes.
-
+ 
 Con el crecimiento de las tecnologías digitales, garantizar una infraestructura de red eficiente es esencial para cumplir con las expectativas modernas de enseñanza y aprendizaje. El SIMGR-UPT se presenta como una solución tecnológica que no solo responde a estas necesidades, sino que también anticipa problemas futuros mediante el uso de herramientas avanzadas de análisis y monitoreo.
 
 ## **Solución Propuesta**

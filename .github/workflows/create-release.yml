@@ -21,12 +21,6 @@ jobs:
           echo "Contenido de ejemplo para el release" > build/artifact.txt
           zip -r build/artifact.zip build/
 
-      # Crear el tag (si no existe)
-      - name: Create Tag
-        run: |
-          git tag ${{ github.ref_name }}
-          git push origin ${{ github.ref_name }}
-
-      # Subir el artefacto manualmente (opcional)
+      # Notificar que el tag ya existe
       - name: Notify
-        run: echo "Por favor, sube el artefacto manualmente al release en GitHub."
+        run: echo "El tag ${{ github.ref_name }} ya existe. Continuando con el proceso."

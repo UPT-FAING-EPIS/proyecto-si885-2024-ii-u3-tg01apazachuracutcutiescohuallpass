@@ -193,4 +193,54 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 
 [**Haz clic aquí para ver el video**](https://youtu.be/sGZVTyP8z5c)
 
+![prediccion1](prediccion1.png).
 
+```
+El código siguiente, que crea un dataframe y quita las filas duplicadas, siempre se ejecuta y actúa como un preámbulo del script:
+dataset <- data.frame(clase, consumo_energia_kwh, dia, docente, Año, Trimestre, Mes, Día, horario, id, ip, laboratorio, navegador, seccion, tema, tiempo_sesion, total_enviado_mb, total_GB, total_recibido_mb, turno, total_mbps)
+dataset <- unique(dataset)
+Pegue o escriba aquí el código de script:
+Información del dataset provisto por Power BI
+if (!require(caret)) install.packages("caret", repos = "http://cran.us.r-project.org"/)
+if (!require(ggplot2)) install.packages("ggplot2", repos = "http://cran.us.r-project.org"/)
+
+Cargar librerías
+library(caret)
+library(ggplot2)
+
+datos <- dataset
+
+head(datos)
+
+str(datos)
+
+summary(datos)
+if (all(is.na(datos$horario))) {
+    datos$horario <- "Sin horario"
+} else {
+    datos$horario[is.na(datos$horario)] <- "Sin horario"
+}
+
+datos$total_enviado_mb <- as.numeric(datos$total_enviado_mb)
+datos$total_recibido_mb <- as.numeric(datos$total_recibido_mb)
+datos$total_GB <- as.numeric(datos$total_GB)
+
+set.seed(123)
+modelo <- train(total_GB ~ total_enviado_mb + total_recibido_mb, data = datos, method = "lm")
+
+modelo_resumen <- summary(modelo)
+
+predicciones <- predict(modelo, datos[, c("total_enviado_mb", "total_recibido_mb")])
+
+datos$prediccion_GB <- predicciones
+
+library(ggplot2)
+ggplot(datos, aes(x = total_GB, y = prediccion_GB)) +
+  geom_point(color = "blue") +
+  geom_abline(slope = 1, intercept = 0, color = "red") +
+  labs(title = "Predicción vs Real", x = "Valor Real de total_GB", y = "Predicción de total_GB") +
+  theme_minimal()
+
+rmse <- sqrt(mean((predicciones - datos$total_GB)^2))
+cat("RMSE:", rmse)
+```

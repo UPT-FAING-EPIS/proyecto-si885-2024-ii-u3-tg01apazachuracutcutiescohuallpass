@@ -193,12 +193,15 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 
 [**Haz clic aquí para ver el video**](https://youtu.be/sGZVTyP8z5c)
 
-![prediccion1](prediccion1.png).
+![prediccion1](prediccion1.png)
 
 en esta prediccion la linea roja representa la prediccion y los puntos azules los datos del csv.
 como se puede ver la prediccion es casi precisa , ya que hay como 4 puntos azules fuera de la linea pero no estan muy legos de la linea
 
-![prediccion2](prediccion2.png).
+![prediccion2](prediccion2.png)
+
+codigo:
+en este caso utilizamos R
 
 ```
 El código siguiente, que crea un dataframe y quita las filas duplicadas, siempre se ejecuta y actúa como un preámbulo del script:

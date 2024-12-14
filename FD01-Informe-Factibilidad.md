@@ -1,4 +1,5 @@
 
+
 <center>
 
 
@@ -32,7 +33,7 @@ Huallpa Maron, Jesus Antonio (2021071085)
 **  
 **
 </center>
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+<div style="page-break-after: always; visibility: hidden"></div>
 
 **Sistema *"Herramienta de Seguimiento y Evaluación del Desempeño de Red en Computadoras UPT"***
 
@@ -187,9 +188,9 @@ El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en C
    |Movilidad del equipo de trabajo|200.00||
    |Total|500.00|
 
-      4.2.3. Costos del ambiente
+4.2.3. Costos del ambiente
 
-      Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+   Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
 
    |Concepto|Costo|
    | :-: | :- |
@@ -197,24 +198,22 @@ El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en C
    |Software de Diagramas y Arquitectura del Proyecto|100.00|
    |Total|450.00|
 
-      4.2.4. Costos de personal
+   4.2.4. Costos de personal
 
-      Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
+   Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
 
-      No se considerará personal para la operación y funcionamiento del sistema.
+   No se considerará personal para la operación y funcionamiento del sistema.
 
-      Incluir tabla que muestra los gastos correspondientes al personal.
 
-      Indicar organización y roles. Indicar horario de trabajo del personal.
 
    |Rol|Personas|Salario Mensual|Horas Mensuales|
    | :-: | :- | :- | :- |
    |Desarrollador|4|1000|60|
    |Gerente de Proyecto|1|1200|60|
 
-      4.2.5.  Costos totales del desarrollo del sistema
+   4.2.5.  Costos totales del desarrollo del sistema
 
-      {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+   Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
 
    |Concepto|Costo Total (S/)|
    | :-: | :- |
@@ -224,28 +223,27 @@ El proyecto "Herramienta de Seguimiento y Evaluación del Desempeño de Red en C
    |Costos del Personal|6,000.00|
    |Total|10,172.00|
 
-      4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+   4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
 
-      - Optimización de Recursos: La herramienta ayudará a optimizar la utilización de los recursos tecnológicos al proporcionar datos detallados sobre el uso de la red. Esta información permitirá a la universidad tomar decisiones informadas sobre el mantenimiento, la actualización o la redistribución de recursos.
-     - Mejora en la Toma de Decisiones: Al disponer de información precisa y actualizada sobre el desempeño de la infraestructura tecnológica, los administradores podrán tomar decisiones basadas en datos para mejorar la eficiencia operativa y la calidad del servicio ofrecido a los estudiantes y personal académico.
+   - Optimización de Recursos: La herramienta ayudará a optimizar la utilización de los recursos tecnológicos al proporcionar datos detallados sobre el uso de la red. Esta información permitirá a la universidad tomar decisiones informadas sobre el mantenimiento, la actualización o la redistribución de recursos.
+    - Mejora en la Toma de Decisiones: Al disponer de información precisa y actualizada sobre el desempeño de la infraestructura tecnológica, los administradores podrán tomar decisiones basadas en datos para mejorar la eficiencia operativa y la calidad del servicio ofrecido a los estudiantes y personal académico.
      - Facilidad de Uso e Integración: La herramienta está diseñada para ser fácil de usar e integrarse con los sistemas existentes, lo que reduce la curva de aprendizaje para el personal y minimiza el impacto en las operaciones diarias.
 
-    4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
+   4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
 
-     - Protección de Datos Personales: La recopilación y análisis de datos debe cumplir con las leyes de protección de datos personales en Perú, como la Ley de Protección de Datos Personales (Ley N° 29733). La herramienta debe garantizar que cualquier dato personal recogido sea anonimizado y utilizado exclusivamente con fines académicos y de mejora del desempeño de los equipos.
-     - Licenciamiento de Software: El uso de la biblioteca Python psutil y cualquier otro software o herramienta debe estar conforme a sus respectivas licencias de uso. Se debe asegurar que no haya violación de derechos de propiedad intelectual en el desarrollo y aplicación de la herramienta.
+   - Protección de Datos Personales: La recopilación y análisis de datos debe cumplir con las leyes de protección de datos personales en Perú, como la Ley de Protección de Datos Personales (Ley N° 29733). La herramienta debe garantizar que cualquier dato personal recogido sea anonimizado y utilizado exclusivamente con fines académicos y de mejora del desempeño de los equipos.
+    - Licenciamiento de Software: El uso de la biblioteca Python psutil y cualquier otro software o herramienta debe estar conforme a sus respectivas licencias de uso. Se debe asegurar que no haya violación de derechos de propiedad intelectual en el desarrollo y aplicación de la herramienta.
 
-    4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
+   4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
 
-	- Aceptación del Proyecto: La herramienta de monitoreo proporcionará beneficios claros para la comunidad universitaria al mejorar el rendimiento de las computadoras en los laboratorios, optimizando los recursos y asegurando que los equipos estén disponibles y operativos para los estudiantes y profesores. La aceptación del proyecto entre los usuarios será positiva si se comunica adecuadamente el propósito y los beneficios del proyecto.
+- Aceptación del Proyecto: La herramienta de monitoreo proporcionará beneficios claros para la comunidad universitaria al mejorar el rendimiento de las computadoras en los laboratorios, optimizando los recursos y asegurando que los equipos estén disponibles y operativos para los estudiantes y profesores. La aceptación del proyecto entre los usuarios será positiva si se comunica adecuadamente el propósito y los beneficios del proyecto.
 	- Impacto en los Usuarios: Los estudiantes y docentes se beneficiarán de un entorno de aprendizaje más eficiente, con equipos que funcionan de manera óptima. Además, el personal de TI podrá responder proactivamente a problemas antes de que se conviertan en fallas significativas, lo que reducirá los tiempos de inactividad y mejorará la satisfacción del usuario.
 	- Capacitación y Adaptación: Para asegurar la adopción efectiva del proyecto, se deben realizar capacitaciones para el personal de TI y otros usuarios relevantes sobre el uso de la herramienta y la interpretación de los datos generados. Esto ayudará a minimizar cualquier resistencia al cambio y facilitará una transición fluida.
 
+ 4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
 
-    4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
-
-     - Uso de Recursos: La herramienta hace uso de software basado en Python y otras herramientas digitales, lo que no requiere recursos físicos adicionales significativos que impacten negativamente en el medio ambiente. Además, la implementación se realiza en la infraestructura existente de la universidad, minimizando la necesidad de recursos adicionales.
-     - Eficiencia Energética: La herramienta está diseñada para identificar patrones de uso y consumo de recursos como energía y datos, permitiendo así una optimización del consumo de energía de las computadoras. Al monitorizar el rendimiento y la eficiencia de los equipos, se pueden identificar oportunidades para reducir el consumo energético, lo que contribuye a los objetivos de sostenibilidad de la universidad.   
+   - Uso de Recursos: La herramienta hace uso de software basado en Python y otras herramientas digitales, lo que no requiere recursos físicos adicionales significativos que impacten negativamente en el medio ambiente. Además, la implementación se realiza en la infraestructura existente de la universidad, minimizando la necesidad de recursos adicionales.
+    - Eficiencia Energética: La herramienta está diseñada para identificar patrones de uso y consumo de recursos como energía y datos, permitiendo así una optimización del consumo de energía de las computadoras. Al monitorizar el rendimiento y la eficiencia de los equipos, se pueden identificar oportunidades para reducir el consumo energético, lo que contribuye a los objetivos de sostenibilidad de la universidad.   
 
 <div style="page-break-after: always; visibility: hidden"></div>
 

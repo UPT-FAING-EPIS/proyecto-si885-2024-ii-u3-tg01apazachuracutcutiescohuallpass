@@ -193,6 +193,8 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 
 [**Haz clic aquí para ver el video**](https://youtu.be/sGZVTyP8z5c)
 
+###Análisis Predictivo con R
+
 ![prediccion1](prediccion1.png)
 
 en esta prediccion la linea roja representa la prediccion y los puntos azules los datos del csv.

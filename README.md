@@ -195,6 +195,11 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 
 ![prediccion1](prediccion1.png).
 
+en esta prediccion la linea roja representa la prediccion y los puntos azules los datos del csv.
+como se puede ver la prediccion es casi precisa , ya que hay como 4 puntos azules fuera de la linea pero no estan muy legos de la linea
+
+![prediccion2](prediccion2.png).
+
 ```
 El código siguiente, que crea un dataframe y quita las filas duplicadas, siempre se ejecuta y actúa como un preámbulo del script:
 dataset <- data.frame(clase, consumo_energia_kwh, dia, docente, Año, Trimestre, Mes, Día, horario, id, ip, laboratorio, navegador, seccion, tema, tiempo_sesion, total_enviado_mb, total_GB, total_recibido_mb, turno, total_mbps)

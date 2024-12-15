@@ -191,7 +191,7 @@ Si necesitas limpiar tu entorno, sigue estos pasos:
 
 # **🎥 Explicación y Video**
 
-[**Haz clic aquí para ver el video**](https://youtu.be/sGZVTyP8z5c)
+[**Haz clic aquí para ver el video**](https://youtu.be/Y2a_7TgeWoA)
 
 # Análisis Predictivo con R
 
